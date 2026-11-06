@@ -1,0 +1,570 @@
+{
+  "schema": "kanayu-story/1",
+  "revision": 1,
+  "status": "ready_for_implementation_not_connected",
+  "locale": "pl-PL",
+  "created_on": "2026-10-30",
+  "story_id": "kigi.lantern-path",
+  "story_version": "1.0.0",
+  "story_title": "Kigi: Ścieżka lampionów",
+  "chapter_id": "c01",
+  "chapter_title": "Pierwsze światło",
+  "entry_step": "c01.arrival",
+  "requires_catalog_version": "hira-prototype-2",
+  "catalog_path": "assets/content/hiragana.json",
+  "asset_manifest": "art-manifest.v1.json",
+  "characters": [
+    {
+      "id": "yuu",
+      "display_name": "Yuu",
+      "role": "Opiekun szkoły",
+      "animated_asset_id": "char.yuu.rive",
+      "poses": {
+        "neutral": "char.yuu.neutral",
+        "greet": "char.yuu.greet",
+        "point": "char.yuu.point",
+        "think": "char.yuu.think",
+        "encourage": "char.yuu.encourage",
+        "celebrate": "char.yuu.celebrate"
+      }
+    }
+  ],
+  "scene_templates": [
+    {
+      "id": "village.day",
+      "assets": [
+        "env.kigi.sky",
+        "env.kigi.ground",
+        "env.kigi.cottages",
+        "env.kigi.school",
+        "env.kigi.bridge",
+        "env.kigi.foreground"
+      ],
+      "world_rewards": [
+        "first-lantern"
+      ],
+      "character_id": "yuu"
+    },
+    {
+      "id": "lesson.cards",
+      "assets": [
+        "prop.lesson.tag"
+      ],
+      "character_id": "yuu",
+      "background": "existing_lesson_ui",
+      "keep_decoration_away_from_prompt": true
+    }
+  ],
+  "learning_policy": {
+    "initial_task_source": "lesson",
+    "optional_replay_task_source": "minigame",
+    "scheduled_review_task_source": "scheduled_review",
+    "story_replay_creates_learning_events": false,
+    "kana_reading_response_mode": "text",
+    "word_reading_response_mode": "text",
+    "grading_mode": "automatic",
+    "base_learning_unit_count": 23,
+    "required_accuracy": null,
+    "writing_required": false,
+    "correction_policy": "existing_delayed_corrective_no_fsrs",
+    "meanings_visible_before_answer": false,
+    "answers_from_catalog_only": true
+  },
+  "rewards": [
+    {
+      "id": "first-lantern",
+      "grant_once": true,
+      "legacy_lesson_id": "first-ten",
+      "legacy_event_type": "lesson_completed",
+      "eligibility": "all_required_learning_resolved",
+      "on_assets": [
+        "prop.lantern.on",
+        "fx.lantern.glow"
+      ],
+      "off_assets": [
+        "prop.lantern.off"
+      ],
+      "never_revoke_on_error_or_absence": true,
+      "legacy_completion_satisfies_eligibility": true
+    }
+  ],
+  "feedback": {
+    "kana_correct": "Tak, ten znak czytamy „{reading}”.",
+    "kana_incorrect": "Ten znak czytamy „{reading}”. Przyjrzyjmy mu się jeszcze raz.",
+    "word_correct": "Tak, to słowo czytamy „{reading}”.",
+    "word_incorrect": "To słowo czytamy „{reading}”. Przyjrzyjmy mu się jeszcze raz.",
+    "dont_know": "Sprawdźmy razem: „{reading}”.",
+    "corrective": "Jeszcze jedno spotkanie z tym znakiem.",
+    "save_failed": "Nie udało się zapisać tego kroku. Spróbuj ponownie.",
+    "resume": "Dobrze znów cię widzieć. Zatrzymaliśmy się tutaj.",
+    "correct_pose": "celebrate",
+    "incorrect_pose": "encourage",
+    "dont_know_pose": "encourage"
+  },
+  "ui": {
+    "continue": "Dalej",
+    "dont_know": "Nie wiem jeszcze",
+    "skip_dialogue": "Pomiń rozmowę",
+    "continue_chapter": "Kontynuuj: Pierwsze światło",
+    "skip_dialogue_does_not_skip_learning": true
+  },
+  "steps": [
+    {
+      "id": "c01.arrival",
+      "kind": "dialogue",
+      "scene_id": "village.day",
+      "assets": [
+        "prop.lantern.off"
+      ],
+      "lines": [
+        {
+          "id": "c01.arrival.1",
+          "speaker": "yuu",
+          "pose": "greet",
+          "text": "Witaj w Kigi. Jestem Yuu, opiekuję się tutejszą szkołą."
+        },
+        {
+          "id": "c01.arrival.2",
+          "speaker": "yuu",
+          "pose": "point",
+          "text": "Przygotowujemy Wieczór Lampionów. Każde światło na ścieżce będzie przypominało małą historię naszej wioski."
+        }
+      ],
+      "actions": [
+        {
+          "id": "c01.arrival.go",
+          "label": "Pokaż mi",
+          "effect": "advance"
+        },
+        {
+          "id": "c01.arrival.leave",
+          "label": "Rozejrzę się później",
+          "effect": "exit_to_village",
+          "resume_step": "c01.arrival"
+        }
+      ],
+      "next": "c01.notebook"
+    },
+    {
+      "id": "c01.notebook",
+      "kind": "dialogue",
+      "scene_id": "village.day",
+      "assets": [
+        "prop.notebook.closed",
+        "prop.notebook.open"
+      ],
+      "lines": [
+        {
+          "id": "c01.notebook.1",
+          "speaker": "yuu",
+          "pose": "think",
+          "text": "Poprzednia opiekunka zostawiła ten notes. Są w nim miejsca, wspomnienia i trochę wolnego miejsca na nowe."
+        },
+        {
+          "id": "c01.notebook.2",
+          "speaker": "yuu",
+          "pose": "point",
+          "text": "Zacznijmy przy szkole. Przygotowałem dziesięć znaków do naszej pierwszej lekcji."
+        }
+      ],
+      "actions": [
+        {
+          "id": "c01.notebook.go",
+          "label": "Wejdź do szkoły",
+          "effect": "advance"
+        }
+      ],
+      "next": "c01.vowels.learn"
+    },
+    {
+      "id": "c01.vowels.learn",
+      "kind": "learning_block",
+      "scene_id": "lesson.cards",
+      "assets": [],
+      "lines": [
+        {
+          "id": "c01.vowels.learn.1",
+          "speaker": "yuu",
+          "pose": "point",
+          "text": "Na tych kartach są znaki hiragany. Każdy zapisuje dźwięk. Najpierw je poznamy, potem spróbujesz je odczytać."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "c01.exposure.a",
+          "kind": "exposure",
+          "content_item_id": "kana.hira.a"
+        },
+        {
+          "id": "c01.exposure.i",
+          "kind": "exposure",
+          "content_item_id": "kana.hira.i"
+        },
+        {
+          "id": "c01.exposure.u",
+          "kind": "exposure",
+          "content_item_id": "kana.hira.u"
+        },
+        {
+          "id": "c01.exposure.e",
+          "kind": "exposure",
+          "content_item_id": "kana.hira.e"
+        },
+        {
+          "id": "c01.exposure.o",
+          "kind": "exposure",
+          "content_item_id": "kana.hira.o"
+        }
+      ],
+      "next": "c01.vowels.read"
+    },
+    {
+      "id": "c01.vowels.read",
+      "kind": "learning_block",
+      "scene_id": "lesson.cards",
+      "assets": [],
+      "lines": [
+        {
+          "id": "c01.vowels.read.1",
+          "speaker": "yuu",
+          "pose": "encourage",
+          "text": "Spróbuj odczytać znak na każdej karcie. Jeśli nie pamiętasz, sprawdzimy go razem."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "c01.reading.u",
+          "kind": "reading",
+          "content_item_id": "kana.hira.u"
+        },
+        {
+          "id": "c01.reading.a",
+          "kind": "reading",
+          "content_item_id": "kana.hira.a"
+        },
+        {
+          "id": "c01.reading.o",
+          "kind": "reading",
+          "content_item_id": "kana.hira.o"
+        },
+        {
+          "id": "c01.reading.i",
+          "kind": "reading",
+          "content_item_id": "kana.hira.i"
+        },
+        {
+          "id": "c01.reading.e",
+          "kind": "reading",
+          "content_item_id": "kana.hira.e"
+        }
+      ],
+      "next": "c01.pause"
+    },
+    {
+      "id": "c01.pause",
+      "kind": "checkpoint",
+      "scene_id": "lesson.cards",
+      "assets": [
+        "prop.notebook.closed"
+      ],
+      "lines": [
+        {
+          "id": "c01.pause.1",
+          "speaker": "yuu",
+          "pose": "neutral",
+          "text": "Pierwsza część za nami. Możemy zrobić przerwę albo poznać następne pięć znaków."
+        }
+      ],
+      "actions": [
+        {
+          "id": "c01.pause.go",
+          "label": "Poznaj kolejne pięć",
+          "effect": "advance"
+        },
+        {
+          "id": "c01.pause.leave",
+          "label": "Wróć na polanę",
+          "effect": "exit_to_village",
+          "resume_step": "c01.k.learn"
+        }
+      ],
+      "next": "c01.k.learn"
+    },
+    {
+      "id": "c01.k.learn",
+      "kind": "learning_block",
+      "scene_id": "lesson.cards",
+      "assets": [],
+      "lines": [
+        {
+          "id": "c01.k.learn.1",
+          "speaker": "yuu",
+          "pose": "point",
+          "text": "Teraz poznamy pięć kolejnych dźwięków. Z tych znaków za chwilę złożą się pierwsze słowa."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "c01.exposure.ka",
+          "kind": "exposure",
+          "content_item_id": "kana.hira.ka"
+        },
+        {
+          "id": "c01.exposure.ki",
+          "kind": "exposure",
+          "content_item_id": "kana.hira.ki"
+        },
+        {
+          "id": "c01.exposure.ku",
+          "kind": "exposure",
+          "content_item_id": "kana.hira.ku"
+        },
+        {
+          "id": "c01.exposure.ke",
+          "kind": "exposure",
+          "content_item_id": "kana.hira.ke"
+        },
+        {
+          "id": "c01.exposure.ko",
+          "kind": "exposure",
+          "content_item_id": "kana.hira.ko"
+        }
+      ],
+      "next": "c01.k.read"
+    },
+    {
+      "id": "c01.k.read",
+      "kind": "learning_block",
+      "scene_id": "lesson.cards",
+      "assets": [],
+      "lines": [],
+      "tasks": [
+        {
+          "id": "c01.reading.ku",
+          "kind": "reading",
+          "content_item_id": "kana.hira.ku"
+        },
+        {
+          "id": "c01.reading.ka",
+          "kind": "reading",
+          "content_item_id": "kana.hira.ka"
+        },
+        {
+          "id": "c01.reading.ko",
+          "kind": "reading",
+          "content_item_id": "kana.hira.ko"
+        },
+        {
+          "id": "c01.reading.ki",
+          "kind": "reading",
+          "content_item_id": "kana.hira.ki"
+        },
+        {
+          "id": "c01.reading.ke",
+          "kind": "reading",
+          "content_item_id": "kana.hira.ke"
+        }
+      ],
+      "next": "c01.words"
+    },
+    {
+      "id": "c01.words",
+      "kind": "dialogue",
+      "scene_id": "lesson.cards",
+      "assets": [],
+      "lines": [
+        {
+          "id": "c01.words.1",
+          "speaker": "yuu",
+          "pose": "point",
+          "text": "Znaki mogą tworzyć całe słowa. Odczytajmy trzy krótkie wiadomości, a potem wybierzemy miejsce na lampion."
+        }
+      ],
+      "actions": [
+        {
+          "id": "c01.words.go",
+          "label": "Odczytaj wiadomości",
+          "effect": "advance"
+        }
+      ],
+      "next": "c01.word.iie"
+    },
+    {
+      "id": "c01.word.iie",
+      "kind": "word_task",
+      "scene_id": "lesson.cards",
+      "assets": [
+        "prop.notebook.open",
+        "prop.notebook.closed"
+      ],
+      "task": {
+        "id": "c01.word.iie.reading",
+        "kind": "word_reading",
+        "content_item_id": "word.iie"
+      },
+      "after_feedback": [
+        {
+          "id": "c01.word.iie.meaning",
+          "speaker": "narrator",
+          "pose": "neutral",
+          "text": "いいえ znaczy „nie”."
+        },
+        {
+          "id": "c01.word.iie.dialogue",
+          "speaker": "yuu",
+          "pose": "neutral",
+          "text": "Nie musimy dziś zrobić wszystkiego. Jeden lampion to dobry początek."
+        }
+      ],
+      "after_feedback_effect": "close_future_notebook_pages",
+      "next": "c01.word.koko"
+    },
+    {
+      "id": "c01.word.koko",
+      "kind": "word_task",
+      "scene_id": "lesson.cards",
+      "assets": [
+        "prop.lantern.off"
+      ],
+      "task": {
+        "id": "c01.word.koko.reading",
+        "kind": "word_reading",
+        "content_item_id": "word.koko"
+      },
+      "after_feedback": [
+        {
+          "id": "c01.word.koko.meaning",
+          "speaker": "narrator",
+          "pose": "neutral",
+          "text": "ここ znaczy „tutaj”."
+        },
+        {
+          "id": "c01.word.koko.dialogue",
+          "speaker": "yuu",
+          "pose": "point",
+          "text": "Tutaj, przy wejściu. To będzie nasz pierwszy przystanek."
+        }
+      ],
+      "after_feedback_effect": "highlight_school_lantern_hook",
+      "next": "c01.word.ii",
+      "after_feedback_scene_id": "village.day"
+    },
+    {
+      "id": "c01.word.ii",
+      "kind": "word_task",
+      "scene_id": "lesson.cards",
+      "assets": [
+        "prop.lantern.off"
+      ],
+      "task": {
+        "id": "c01.word.ii.reading",
+        "kind": "word_reading",
+        "content_item_id": "word.ii"
+      },
+      "after_feedback": [
+        {
+          "id": "c01.word.ii.meaning",
+          "speaker": "narrator",
+          "pose": "neutral",
+          "text": "いい znaczy „dobry”, „w porządku”."
+        },
+        {
+          "id": "c01.word.ii.dialogue",
+          "speaker": "yuu",
+          "pose": "celebrate",
+          "text": "To dobre miejsce. Przygotowania pierwszego przystanku są gotowe."
+        }
+      ],
+      "after_feedback_effect": "show_ready_lantern",
+      "next": "c01.lantern",
+      "after_feedback_scene_id": "village.day"
+    },
+    {
+      "id": "c01.lantern",
+      "kind": "reward",
+      "scene_id": "village.day",
+      "assets": [
+        "prop.lantern.off",
+        "prop.lantern.on",
+        "fx.lantern.glow"
+      ],
+      "reward_id": "first-lantern",
+      "eligibility": "all_required_learning_resolved",
+      "grant_timing": "on_entry_before_presentation",
+      "prompt": "Pierwszy lampion jest gotowy.",
+      "actions": [
+        {
+          "id": "c01.lantern.show",
+          "label": "Zobacz pierwsze światło",
+          "effect": "show_reward"
+        }
+      ],
+      "presentation": {
+        "duration_ms": 1500,
+        "effect": "lantern_off_to_on",
+        "character_pose": "celebrate",
+        "reduced_motion": "show_final_state"
+      },
+      "after_presentation": [
+        {
+          "id": "c01.lantern.1",
+          "speaker": "yuu",
+          "pose": "celebrate",
+          "text": "Pierwsze światło jest na miejscu. To pamiątka naszej pierwszej lekcji."
+        },
+        {
+          "id": "c01.lantern.2",
+          "speaker": "yuu",
+          "pose": "encourage",
+          "text": "Nie trzeba pamiętać wszystkiego od razu. Do znaków będziemy wracać, a lampion zostanie."
+        }
+      ],
+      "next": "c01.ending"
+    },
+    {
+      "id": "c01.ending",
+      "kind": "ending",
+      "scene_id": "village.day",
+      "assets": [
+        "prop.notebook.open",
+        "prop.lantern.on"
+      ],
+      "memory": {
+        "id": "memory.first-light",
+        "title": "Pierwsze światło",
+        "text": "Przy szkole zaczęła się nowa ścieżka.",
+        "illustration_from_assets": [
+          "env.kigi.school",
+          "prop.lantern.on"
+        ]
+      },
+      "lines": [
+        {
+          "id": "c01.ending.1",
+          "speaker": "yuu",
+          "pose": "neutral",
+          "text": "Następnym razem zajrzymy pod duże drzewo. Mina przygotowuje tam pocztę na nasze spotkanie."
+        }
+      ],
+      "next_chapter": {
+        "id": "c02",
+        "availability": "not_in_this_package",
+        "unavailable_label": "Kolejny rozdział w przygotowaniu"
+      },
+      "actions": [
+        {
+          "id": "c01.ending.leave",
+          "label": "Wróć na polanę",
+          "effect": "exit_to_village",
+          "resume_step": null
+        },
+        {
+          "id": "c01.ending.notebook",
+          "label": "Zobacz moje znaki",
+          "effect": "open_notebook"
+        }
+      ],
+      "next": null
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+{
+  "schema": "kanayu-art-manifest/1",
+  "revision": 1,
+  "status": "production_request_not_delivered",
+  "created_on": "2026-10-30",
+  "runtime_assets_exist": false,
+  "scene_canvas_px": [
+    1200,
+    1600
+  ],
+  "source_canvas_px": [
+    2400,
+    3200
+  ],
+  "color_space": "sRGB",
+  "p0_expected_file_count": 19,
+  "rules": {
+    "no_baked_text": true,
+    "no_duplicate_dynamic_objects_in_background": true,
+    "shared_canvas_for_scene_layers": true,
+    "shared_pivot_for_variants": true
+  },
+  "assets": [
+    {
+      "id": "env.kigi.sky",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Niebo, wzgórza i daleki las.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/layers/kigi-sky-day.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": false
+        }
+      ]
+    },
+    {
+      "id": "env.kigi.ground",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Polana, ścieżka i strumień, bez budynków i mostku.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/layers/kigi-ground.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "env.kigi.cottages",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Domki w tle, bez aktywnych świateł.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/layers/kigi-cottages.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "env.kigi.school",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Szkoła z uchwytem, bez lampionu i bez napisów.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/layers/kigi-school.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "env.kigi.bridge",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Cały mostek, bez dekoracji rozdziału 4.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/layers/kigi-bridge.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "env.kigi.foreground",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Duże drzewo i rośliny przy krawędziach.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/layers/kigi-foreground.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.lantern.off",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Lampion zgaszony, punkt zawieszenia (0.5, 0.05).",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/lantern-off.png",
+          "format": "png",
+          "size_px": [
+            512,
+            768
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.lantern.on",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Ten sam lampion rozświetlony, bez zewnętrznej poświaty.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/lantern-on.png",
+          "format": "png",
+          "size_px": [
+            512,
+            768
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "fx.lantern.glow",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Osobny miękki blask.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/fx/lantern-glow.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.notebook.closed",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Zamknięty notes, bez liter.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/notebook-closed.png",
+          "format": "png",
+          "size_px": [
+            768,
+            768
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.notebook.open",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Otwarty notes z pustymi stronami.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/notebook-open.png",
+          "format": "png",
+          "size_px": [
+            1536,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.lesson.tag",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Neutralna pusta etykieta, wspólna dla wszystkich zadań.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/lesson-tag.png",
+          "format": "png",
+          "size_px": [
+            768,
+            512
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "char.yuu.neutral",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Spokojne oczekiwanie.",
+      "files": [
+        {
+          "path": "assets/art/story/yuu/yuu-neutral.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "char.yuu.greet",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Krótkie powitanie.",
+      "files": [
+        {
+          "path": "assets/art/story/yuu/yuu-greet.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "char.yuu.point",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Wskazanie w prawo i lekko w górę.",
+      "files": [
+        {
+          "path": "assets/art/story/yuu/yuu-point.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "char.yuu.think",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Zaciekawienie i namysł.",
+      "files": [
+        {
+          "path": "assets/art/story/yuu/yuu-think.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "char.yuu.encourage",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Spokojny gest wsparcia.",
+      "files": [
+        {
+          "path": "assets/art/story/yuu/yuu-encourage.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "char.yuu.celebrate",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Niewielka radość.",
+      "files": [
+        {
+          "path": "assets/art/story/yuu/yuu-celebrate.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "char.yuu.rive",
+      "phase": "P0",
+      "status": "requested",
+      "first_chapter": "c01",
+      "description_pl": "Artboard i domyślna maszyna YuuStory. Triggery: greet, point, think, encourage, celebrate; domyślnie Idle.",
+      "files": [
+        {
+          "path": "assets/rive/story/yuu-story.riv",
+          "format": "riv",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.postbox",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c02",
+      "description_pl": "Skrzynka przy drzewie.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/postbox-closed.png",
+          "format": "png",
+          "size_px": [
+            768,
+            1024
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/kigi/props/postbox-open.png",
+          "format": "png",
+          "size_px": [
+            768,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.envelope",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c02",
+      "description_pl": "Koperta bez tekstu.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/envelope-closed.png",
+          "format": "png",
+          "size_px": [
+            768,
+            512
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/kigi/props/envelope-open.png",
+          "format": "png",
+          "size_px": [
+            768,
+            512
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.stamps",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c02",
+      "description_pl": "Dwa kosmetyczne stemple.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/stamp-leaf.png",
+          "format": "png",
+          "size_px": [
+            256,
+            256
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/kigi/props/stamp-circle.png",
+          "format": "png",
+          "size_px": [
+            256,
+            256
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "char.mina",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c02",
+      "description_pl": "Mina z torbą, wspólna skala i pivot (0.5, 0.92).",
+      "files": [
+        {
+          "path": "assets/art/story/mina/mina-neutral.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/mina/mina-greet.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/mina/mina-give-letter.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/mina/mina-think.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/mina/mina-celebrate.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.workshop.kit",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c03",
+      "description_pl": "Trzy etapy pracy przy lampionie.",
+      "files": [
+        {
+          "path": "assets/art/story/workshop/paper.png",
+          "format": "png",
+          "size_px": [
+            768,
+            768
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/workshop/lantern-frame.png",
+          "format": "png",
+          "size_px": [
+            768,
+            768
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/workshop/finished-lantern.png",
+          "format": "png",
+          "size_px": [
+            768,
+            768
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.lantern.ornaments",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c03",
+      "description_pl": "Maski dekoracyjne we współrzędnych lampionu.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/lantern-ornament-leaves.png",
+          "format": "png",
+          "size_px": [
+            512,
+            768
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/kigi/props/lantern-ornament-waves.png",
+          "format": "png",
+          "size_px": [
+            512,
+            768
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "char.toma",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c03",
+      "description_pl": "Toma z fartuchem, wspólna skala i pivot (0.5, 0.92).",
+      "files": [
+        {
+          "path": "assets/art/story/toma/toma-neutral.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/toma/toma-greet.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/toma/toma-work.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/toma/toma-think.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/toma/toma-celebrate.png",
+          "format": "png",
+          "size_px": [
+            1024,
+            1024
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.bridge.marker",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c04",
+      "description_pl": "Kamień orientacyjny z pustą płytką.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/bridge-marker.png",
+          "format": "png",
+          "size_px": [
+            512,
+            512
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.bridge.hook",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c04",
+      "description_pl": "Osobny uchwyt bez lampionu.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/props/bridge-hook.png",
+          "format": "png",
+          "size_px": [
+            512,
+            768
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "prop.gathering.kit",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c05",
+      "description_pl": "Nakładki wyposażenia polany; girlanda od c06.",
+      "files": [
+        {
+          "path": "assets/art/story/gathering/cushions.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/gathering/table.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/gathering/garland.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "fx.kigi.evening",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c07",
+      "description_pl": "Osobne wieczorne światła okien; bez lampionów nagród.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/fx/evening-windows.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "ui.memory.frames",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c02",
+      "description_pl": "Ramka pamiątki i zakładka.",
+      "files": [
+        {
+          "path": "assets/art/story/ui/memory-frame.png",
+          "format": "png",
+          "size_px": [
+            768,
+            768
+          ],
+          "alpha": true
+        },
+        {
+          "path": "assets/art/story/ui/bookmark.png",
+          "format": "png",
+          "size_px": [
+            256,
+            512
+          ],
+          "alpha": true
+        }
+      ]
+    },
+    {
+      "id": "scene.workshop",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c03",
+      "description_pl": "Tło pracowni, bez ruchomych przedmiotów i postaci.",
+      "files": [
+        {
+          "path": "assets/art/story/workshop/workshop-background.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": false
+        }
+      ]
+    },
+    {
+      "id": "scene.gathering",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c05",
+      "description_pl": "Polana spotkań: wspólna geometria dnia i wieczoru (wieczór używany w c07).",
+      "files": [
+        {
+          "path": "assets/art/story/gathering/gathering-day.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": false
+        },
+        {
+          "path": "assets/art/story/gathering/gathering-evening.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": false
+        }
+      ]
+    },
+    {
+      "id": "env.kigi.sky.evening",
+      "phase": "P1",
+      "status": "requested",
+      "first_chapter": "c07",
+      "description_pl": "Wieczorne niebo zastępujące warstwę P0.",
+      "files": [
+        {
+          "path": "assets/art/story/kigi/layers/kigi-sky-evening.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": false
+        }
+      ]
+    },
+    {
+      "id": "concept.garden",
+      "phase": "P2",
+      "status": "requested",
+      "first_chapter": "future.katakana",
+      "description_pl": "Wyłącznie koncepcja przyszłego ogrodu, nie zasób pierwszej kampanii.",
+      "files": [
+        {
+          "path": "docs/concepts/kigi-garden-concept.png",
+          "format": "png",
+          "size_px": [
+            1200,
+            1600
+          ],
+          "alpha": false
+        }
+      ]
+    },
+    {
+      "id": "fx.ambient",
+      "phase": "P2",
+      "status": "requested",
+      "first_chapter": "optional",
+      "description_pl": "Opcjonalne efekty; zakres i pliki do ustalenia po P0.",
+      "files": []
+    }
+  ]
+}

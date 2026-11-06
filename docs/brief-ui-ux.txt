@@ -1,0 +1,72 @@
+BRIEF UI/UX — KANAYU
+
+Zaprojektuj nową tożsamość wizualną i interfejs mobilnej aplikacji KanaYu do nauki japońskiego pisma. Projekt ma łączyć skuteczną naukę z przyjemnością odkrywania małego świata. Zależy mi na rozpoznawalnym charakterze, ciekawym języku graficznym i bardzo czytelnych ekranach ćwiczeń.
+
+Nie traktuj wyglądu istniejącego prototypu jako wzorca. Jego beżowo-zielona paleta, przewaga zaokrąglonych kart i obecna postać nie są zaakceptowanym kierunkiem. Możesz zmienić kolorystykę, typografię interfejsu, ilustracje, mieszkańca, kompozycję ekranów i nawigację. Zachowaj ideę odkrywania wioski oraz opisane zasady nauki.
+
+PRODUKT I ODBIORCA
+
+KanaYu ma uczyć rozpoznawania, czytania i opcjonalnie pisania hiragany oraz katakany. W przyszłości może zostać rozszerzona o kanji. Na potrzeby koncepcji przyjmij odbiorcę początkującego: nastolatka lub osobę dorosłą, bez wcześniejszej znajomości japońskiego. Interfejs jest po polsku. Charakter aplikacji może być zabawny i wyrazisty, ale powinien odpowiadać także dorosłej osobie.
+
+Użytkownik ma szybko rozumieć: czego się dziś nauczy, co warto powtórzyć i co zmieni się w jego wiosce. Nauka odbywa się w krótkich sesjach, we własnym tempie. Nie stosujemy limitu czasu na odpowiedź.
+
+IDEA WIOSKI
+
+Ekran startowy przedstawia małą wioskę, którą użytkownik stopniowo poznaje i rozwija dzięki nauce. Budynki i miejsca prowadzą do aktywności. Mieszkaniec wita użytkownika, pomaga rozpocząć lekcję i reaguje na postęp. Ma być częścią tego świata i przyszłej identyfikacji KanaYu.
+
+W pierwszej wersji wystarczą fragment wioski, szkoła, jeden animowany mieszkaniec oraz jedna widoczna zmiana po ukończeniu lekcji. Obecnym przykładem nagrody jest zapalenie lampionu przy szkole. Możesz zaproponować inną równie czytelną nagrodę, pasującą do wybranej koncepcji.
+
+Docelowo kolejne etapy nauki mogą odsłaniać miejsca, mieszkańców i elementy otoczenia. Nie projektuj na start pełnej gry o zarządzaniu miastem ani rozbudowanej ekonomii.
+
+JAK WYGLĄDA NAUKA
+
+1. Wejście do wioski. Użytkownik widzi dostępne powtórki i możliwość rozpoczęcia nowego materiału. Następna czynność powinna być oczywista.
+
+2. Poznanie znaku. Duży znak, odczyt w rōmaji, przycisk odtworzenia wymowy, animacja kolejności kresek i krótka wskazówka. Rōmaji to zapis wymowy alfabetem łacińskim.
+
+3. Samodzielny odczyt. Na ekranie jest znak bez podpisu. Użytkownik wpisuje odczyt w rōmaji lub wybiera „Nie wiem jeszcze”. Może skorzystać ze wskazówki; aplikacja zapisuje, że odpowiedź była wspomagana.
+
+4. Informacja zwrotna. Po odpowiedzi pojawia się poprawny odczyt, możliwość odsłuchu oraz spokojny komunikat. Błąd może prowadzić do ponownego spotkania ze znakiem kilka zadań później. Nie odbieramy nagród za pomyłki.
+
+5. Zastosowanie w słowach. Użytkownik odczytuje proste słowa z poznanych znaków. Przykłady: いえ — dom, かお — twarz, あき — jesień.
+
+6. Opcjonalne pisanie. Użytkownik dostaje odczyt znaku i pisze go z pamięci palcem lub rysikiem. Zatwierdza rysunek, a następnie ogląda wzorzec nałożony na swoją próbę i obok niej. Może porównać animacje kolejności kresek. Sam wybiera „Poprawnie” albo „Błąd lub nie pamiętam”. Aplikacja nie rozpoznaje automatycznie poprawności pisma.
+
+7. Zakończenie. Krótkie podsumowanie, zmiana w wiosce i powrót do świata. Ukończenie lekcji nie oznacza jeszcze trwałego zapamiętania znaków.
+
+POWTÓRKI, POSTĘP I MOTYWACJA
+
+Terminy powtórek wyznacza algorytm pamięci FSRS. Szczegóły techniczne pozostają poza głównym interfejsem. Czytanie i pisanie mają osobne wyniki.
+
+Interfejs powinien rozróżniać trzy informacje: poznany materiał, potwierdzone utrwalenie oraz aktualną potrzebę powtórki. Przykładowe statusy znaku: „Poznany”, „Ćwiczony”, „Utrwalony w czytaniu”, „Do odświeżenia”. Przy wynikach pisania trzeba zaznaczać samoocenę. Status utrwalenia wymaga poprawnych prób rozłożonych w czasie.
+
+Motywacja opiera się na odkrywaniu świata, widocznym postępie i relacji z mieszkańcem. Nagroda powinna mieć zrozumiały powód. Nie projektuj kar za opuszczony dzień, utraty wcześniej zdobytych ozdób ani systemu żyć ograniczającego naukę. Wioska zachowuje przyjazny charakter podczas dłuższej nieobecności. Gdy nie ma powtórek, aplikacja może po prostu pozwolić zakończyć sesję.
+
+ZAKRES PIERWSZEGO PROJEKTU
+
+Istnieje działający prototyp obejmujący 10 znaków hiragany: あいうえお・かきくけこ, podzielonych na dwa bloki po pięć. Ma ćwiczenia odczytu, trzy słowa, opcjonalne pisanie, lokalny dziennik prób i nagrodę za ukończenie lekcji.
+
+Zaprojektuj następujące ekrany i stany:
+- Wioska: pierwsze wejście, dostępne powtórki, odblokowana nagroda.
+- Poznawanie pojedynczego znaku.
+- Samodzielny odczyt: odpowiedź, wskazówka, poprawny wynik, błąd i „Nie wiem”.
+- Pisanie: pole rysowania, zatwierdzona próba, porównanie ze wzorcem i samoocena.
+- Podsumowanie lekcji i prezentacja zmiany w wiosce.
+- Kolekcja poznanych znaków i szczegóły jednego znaku, z rozdzieleniem czytania i pisania.
+- Dziennik: historia prób i dodatkowa funkcja eksportu danych.
+
+Możesz zmienić sposób grupowania tych funkcji i zaproponować własną nawigację. Katakana i kanji to przyszła rozbudowa; nie pokazuj ich jako już dostępnych lekcji. Konto, sklep, subskrypcja, ranking i funkcje społecznościowe nie są częścią pierwszej wersji.
+
+WYMAGANIA PROJEKTOWE I TECHNICZNE
+
+Aplikacja powstaje we Flutterze, animacje postaci i wybranych elementów będą realizowane w Rive. Projektuj przede wszystkim na telefon w orientacji pionowej, z możliwością adaptacji na większe ekrany. Wioska może być sceną 2D albo ilustracją z oddzielnymi interaktywnymi i animowanymi elementami.
+
+Ekrany nauki muszą zapewniać czytelny znak, wygodne wpisywanie odpowiedzi, duże pole do pisania i dobry kontrast. Krój używany do pokazywania japońskich znaków musi zachowywać ich poprawną, łatwą do odróżnienia formę. Informacja o wyniku nie może zależeć wyłącznie od koloru. Uwzględnij większy tekst, mniejsze telefony oraz ograniczenie animacji. Dekoracje i reakcje mieszkańca nie powinny przeszkadzać podczas odpowiadania.
+
+Podstawowa nauka działa lokalnie, bez obowiązkowego konta. Dziennik nie wymaga prezentowania użytkownikowi surowych parametrów algorytmu.
+
+OCZEKIWANY REZULTAT
+
+Najpierw przedstaw trzy wyraźnie różne koncepcje artystyczne. Dla każdej pokaż ekran wioski i ekran ćwiczenia, paletę, typografię interfejsu, styl ilustracji, pomysł na mieszkańca i sposób animacji. Koncepcje powinny różnić się także kompozycją, charakterem świata i sposobem prezentacji postępu.
+
+Uzasadnij krótko, co nadaje każdej koncepcji własną tożsamość i jak pomaga ona w nauce. Po wyborze kierunku przygotuj spójny przepływ pierwszej lekcji i zestaw komponentów. Obecne kolory, robot demonstracyjny i wygląd prototypu nie powinny ograniczać Twoich propozycji.
