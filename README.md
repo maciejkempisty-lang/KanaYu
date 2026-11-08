@@ -52,5 +52,6 @@ Na tym komputerze SDK **Flutter 3.47.8 / Dart 3.13.7** jest w `.tooling/flutter`
 - [Fabuła Kigi: Ścieżka lampionów](docs/fabula-kigi.md) — pełna historia, dokładny pierwszy rozdział i kolejne etapy kampanii.
 - [Grafiki do wdrożenia](docs/grafiki-kigi.md) — lista P0/P1/P2 i wymagania dla osoby tworzącej grafiki.
 - [Pakiet scenariusza](docs/story/README.md) — JSON pierwszego rozdziału, manifest zasobów i kontrakt przyszłej integracji; jeszcze niepodłączone do aplikacji.
+- [NPC-e i dialogi do mapy hiragany](docs/story/kigi-hiragana-v1/README.md) — sześć statycznych postaci, mapa odniesienia, podgląd rozmów i dziesięć wyzwań; propozycja do dalszego wdrożenia.
 
 **Prototyp nie jest jeszcze wydaniem sklepowym.** Zawiera własnego liściastego mieszkańca Rive i syntetyczną wymowę. Fizyczne telefony, klawiatury zewnętrzne, ocena treści przez nauczyciela i badanie retencji pozostają osobnymi etapami.

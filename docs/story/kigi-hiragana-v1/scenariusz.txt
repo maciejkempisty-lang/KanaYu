@@ -1,0 +1,483 @@
+KIGI — PIERWSZA ŚCIEŻKA LAMPIONÓW
+
+Scenariusz v1 — 8 listopada 2026
+
+Propozycja treści i statycznych grafik. Nie jest wdrożeniem w aplikacji.
+
+
+
+Yuu po raz pierwszy przygotowuje Wieczór Lampionów. Notes poprzedniej opiekunki zawiera wspomnienia, lecz nie gotową instrukcję. Pomagając mieszkańcom, gracz poznaje hiraganę i tworzy własną stronę historii Kigi.
+
+
+
+ZAŁOŻENIA ADAPTACJI
+
+
+
+Zachowujemy Yuu, Minę, Tomę, notes poprzedniej opiekunki i motyw miejsca dla nowej osoby.
+
+Neri, Hana i Sora są nowymi propozycjami, poszerzającymi obsadę o gospodarzy istniejących miejsc na przesłanej mapie.
+
+Jedno rozpoczęte spotkanie edukacyjne dotyczy jednej grupy znaków. Ten sam NPC może prowadzić kilka kolejnych spotkań; kliknięcie postaci samo nie rozpoczyna próby.
+
+Pierwszy etap obejmuje 46 podstawowych znaków w 10 spotkaniach. わ・を・ん to krótki blok końcowy, a nie trzy sylaby jednego regularnego rzędu.
+
+W tej adaptacji Wieczór Lampionów kończy podstawowy etap po 46 znakach. W starszym zarysie następował dopiero po dakuten i handakuten; przesunięcie finału jest świadomą propozycją uproszczenia.
+
+Dakuten, handakuten, małe ゃゅょ, małe っ, długość samogłosek i kontekst partykuł pozostają dalszymi lekcjami hiragany na tej samej mapie. Katakana dostaje później osobną mapę za górną bramą.
+
+Mapa jest zadbana od początku. Widoczne już lampy, skrzynka, ławki i sprawny most pozostają na miejscu; postęp dodaje koperty, ozdoby i wpisy w notesie.
+
+Aktualny lokalny katalog KanaYu zawiera 10 znaków hiragany. Nowe 36 znaków w tym pakiecie to zakres do opracowania w katalogu, z nagraniami i wzorcami pisania. Nie są już działającymi lekcjami.
+
+
+
+JAK DZIAŁA SPOTKANIE
+
+Dotknij NPC-a → Przeczytaj 1–2 krótkie wypowiedzi → Wybierz rozpoczęcie → Poznaj znaki jednej grupy → Spróbuj odczytać każdy znak w zmienionej kolejności → Obejrzyj informację zwrotną → Zobacz krótkie zakończenie i pamiątkę → Wróć na mapę
+
+3 lub 5 znaków. Poznawanie: znak, odczyt i odsłuch. Próba: sam znak i wpisanie odczytu albo Nie wiem jeszcze. Bez limitu czasu i progu bezbłędności.
+
+Wszystkie znaki grupy otrzymały pierwszą odpowiedź albo Nie wiem jeszcze, a użytkownik zobaczył odpowiedzi. Ukończenie spotkania nie oznacza utrwalenia.
+
+
+
+MIESZKAŃCY
+
+
+
+YUU — Opiekun szkoły i przewodnik
+
+Postać z istniejącego zarysu; nowa propozycja statycznego wyglądu.
+
+Wygląd: Korona zielonych liści, jasna okrągła twarz, mszysta sylwetka, prosty notes. Czytelny gest powitania.
+
+Charakter: Troskliwy, skrupulatny; stopniowo przestaje traktować notes jak instrukcję.
+
+Głos: Krótkie, spokojne zdania; zaprasza i zostawia wybór.
+
+Miejsce: Przy schodkach dużego budynku szkoły w środkowej części mapy.
+
+Wcześniejsza wizyta: „Witaj w Kigi. Zaczniemy spokojnie, od kilku znaków.”
+
+Wznowienie: „Notes czeka otwarty. Wrócimy do naszej ostatniej karty?”
+
+Powtórka: „Do tych kart zawsze można wrócić. Którą grupę chcesz powtórzyć?”
+
+
+
+MINA — Listonoszka
+
+Postać z istniejącego zarysu.
+
+Wygląd: Rdzawo-kremowe pióra, turkusowa chustka, jasnobrązowa torba z pustą kopertą.
+
+Charakter: Energiczna, serdeczna; pamięta wszystkie ścieżki i czasem zapomina, że inni dopiero je poznają.
+
+Głos: Żwawe, konkretne zdania; drobny żart o własnym pośpiechu.
+
+Miejsce: Obok czerwonej skrzynki pod wielkim drzewem na dole mapy.
+
+Wcześniejsza wizyta: „Sortuję zaproszenia. Zajrzyj najpierw do Yuu przy szkole — pokaże ci pierwsze karty.”
+
+Wznowienie: „Twoją kopertę odłożyłam na bok. Dokończymy ją razem?”
+
+Powtórka: „Zaproszenia już gotowe. Nasze karty pocztowe nadal tu są.”
+
+
+
+TOMA — Rzemieślnik przygotowujący lampiony
+
+Postać z istniejącego zarysu.
+
+Wygląd: Oliwkowa skorupa, ochrowy fartuch, jeden bambusowy obręczowy szkielet lampionu.
+
+Charakter: Cierpliwy i dokładny; zastanawia się, czy wszystkie lampiony powinny być jednakowe.
+
+Głos: Niewiele słów, spokojny rytm, uwaga skierowana na pracę.
+
+Miejsce: Przed otwartą pracownią z lampionami na najwyższym tarasie.
+
+Wcześniejsza wizyta: „Pracownia jest otwarta. Gdy skończysz u Miny, przygotujemy coś razem.”
+
+Wznowienie: „Odłożyłem twoje materiały. Wszystko jest na swoim miejscu.”
+
+Powtórka: „Papieru wystarczy. Możemy jeszcze raz przejrzeć wybraną grupę kart.”
+
+
+
+NERI — Opiekunka ścieżki przy strumieniu
+
+Nowa propozycja do tej mapy.
+
+Wygląd: Brązowe futro, jasny pyszczek, prosta granatowa kamizelka, zwinięty krótki sznurek.
+
+Charakter: Praktyczna, spostrzegawcza; chce, żeby każdy łatwo znalazł drogę na spotkanie.
+
+Głos: Konkretne obserwacje o drodze i punktach orientacyjnych.
+
+Miejsce: Na ziemi przy prawym końcu drewnianego mostku, obok ścieżki.
+
+Wcześniejsza wizyta: „Most jest otwarty. Ja tylko wybieram miejsce na wieczorny lampion.”
+
+Wznowienie: „Zostawiliśmy tu jeden niedokończony zestaw. Możemy spokojnie wrócić.”
+
+Powtórka: „Droga już oznaczona. Chcesz wrócić do kart z tego przystanku?”
+
+
+
+HANA — Gospodyni polany spotkań
+
+Nowa propozycja do tej mapy.
+
+Wygląd: Szaro-brązowe futro, terakotowy fartuszek, niewielki koszyk jasnych kwiatów.
+
+Charakter: Gościnna i pomysłowa; zawsze zostawia jedno wolne miejsce dla nowej osoby.
+
+Głos: Ciepło i bez przesady; mówi o wspólnym miejscu i odpoczynku.
+
+Miejsce: Wewnątrz polany z trzema ławkami w dolnej prawej części mapy.
+
+Wcześniejsza wizyta: „Możesz tu odpocząć. Dekoracje przygotujemy, kiedy skończysz przy mostku.”
+
+Wznowienie: „Koszyk zostawiłam przy ławce. Dokończymy dekorację?”
+
+Powtórka: „Twoje miejsce nadal tu jest. Karty też możemy jeszcze raz obejrzeć.”
+
+
+
+SORA — Opiekunka wiejskich wspomnień
+
+Nowa propozycja do tej mapy.
+
+Wygląd: Kremowy dysk twarzy, szaro-brązowe pióra, śliwkowa chusta, zamknięty niebieskoszary album.
+
+Charakter: Uważna i pogodna; pomaga Yuu odczytać sens pustej strony, nie zastępuje poprzedniej opiekunki.
+
+Głos: Jedno zdanie, które zostawia miejsce do namysłu; bez zagadkowych przepowiedni.
+
+Miejsce: Przy małym domku z niebieskim dachem, po lewej stronie nad szkołą.
+
+Wcześniejsza wizyta: „Przeglądam dawne wspomnienia. Gdy polana będzie gotowa, poszukamy miejsca na nowe.”
+
+Wznowienie: „Zakładka jest tam, gdzie ją zostawiliśmy. Otworzyć album?”
+
+Powtórka: „Historia już ma swoją stronę. Do znaków możemy wracać tyle razy, ile potrzeba.”
+
+
+
+DZIESIĘĆ SPOTKAŃ
+
+
+
+1. Pierwsza kartka — Yuu
+
+あ い う え お | a, i, u, e, o
+
+Przed wyzwaniem:
+
+„Witaj w Kigi. Przygotowujemy Wieczór Lampionów, a w notesie zostało miejsce na nową historię.”
+
+„Zacznijmy od pięciu znaków. Najpierw je poznamy, potem spróbujesz je odczytać.”
+
+Przycisk: Poznaj pierwsze znaki
+
+Po ukończeniu:
+
+„Pierwsza kartka jest gotowa. Nie trzeba pamiętać wszystkiego od razu.”
+
+Pamiątka: Liściasta zakładka w notesie; mapa zachowuje obecne oświetlenie.
+
+Dalsza droga: „Kiedy zechcesz, mam jeszcze jedną grupę kart.”
+
+
+
+2. Pierwszy lampion — Yuu
+
+か き く け こ | ka, ki, ku, ke, ko
+
+Przed wyzwaniem:
+
+„Przy szkole zaczniemy naszą ścieżkę. Mam jeszcze pięć kart do pierwszego przystanku.”
+
+„Po ćwiczeniu wybierzemy miejsce na pamiątkowy lampion.”
+
+Przycisk: Otwórz kolejne karty
+
+Po ukończeniu:
+
+„Pierwszy przystanek gotowy. Ten lampion przypomni nam dzisiejsze spotkanie.”
+
+Pamiątka: Jeden nowy, wyróżniony lampion świąteczny lub ozdoba istniejącej lampy przy szkole. Nie dublować lamp namalowanych w tle.
+
+Dalsza droga: „Mina czeka przy czerwonej skrzynce pod wielkim drzewem.”
+
+
+
+3. Zaproszenie bez adresu — Mina
+
+さ し す せ そ | sa, shi, su, se, so
+
+Przed wyzwaniem:
+
+„Napisałam: «Spotykamy się tam, gdzie zawsze». To niezbyt pomaga komuś nowemu, prawda?”
+
+„Do zaproszeń dołożymy obrazki przystanków. Najpierw poćwiczmy pięć nowych znaków na szkolnych kartach.”
+
+Przycisk: Pomóż przy zaproszeniach
+
+Po ukończeniu:
+
+„Gotowe. A ta koperta bez adresu jest dla ciebie. Zawsze zostawiam jedną dla kogoś nowego.”
+
+Pamiątka: Plik gotowych kopert obok istniejącej skrzynki; koperta w notesie.
+
+Dalsza droga: „Zanieś Tomie wiadomość, że zaproszenia są gotowe. Pracuje na górnym tarasie.”
+
+
+
+4. Różne kształty światła — Toma
+
+た ち つ て と | ta, chi, tsu, te, to
+
+Przed wyzwaniem:
+
+„Ten lampion jest okrągły, tamten wąski. Jeszcze nie wiem, czy wszystkie powinny wyglądać tak samo.”
+
+„Przygotujmy jeden papierowy korpus. Przy okazji zajrzymy do następnej grupy kart.”
+
+Przycisk: Zajrzyj do pracowni
+
+Po ukończeniu:
+
+„Korpus gotowy. Zostawię mu jego własny kształt.”
+
+Pamiątka: Nowy papierowy korpus w zbliżeniu stołu; bez znikania lampionów namalowanych na mapie.
+
+Dalsza droga: „Zostały etykiety. Możemy do nich wrócić przy następnym spotkaniu.”
+
+
+
+5. Lampion z własną historią — Toma
+
+な に ぬ ね の | na, ni, nu, ne, no
+
+Przed wyzwaniem:
+
+„W starym notesie znalazłem krzywy lampion. Ktoś narysował go z wielką starannością.”
+
+„Może właśnie taki najlepiej zapamiętał. Przejrzyjmy następne karty i dokończmy nasz.”
+
+Przycisk: Dokończ lampion
+
+Po ukończeniu:
+
+„Nie muszą być jednakowe. Ten będzie opowiadał o naszej pracy.”
+
+Pamiątka: Ozdobiony lampion przy pracowni i pamiątka w notesie; opcjonalny wybór ornamentu po nauce.
+
+Dalsza droga: „Neri wybiera miejsce na lampion przy mostku.”
+
+
+
+6. Która prawa strona? — Neri
+
+は ひ ふ へ ほ | ha, hi, fu, he, ho
+
+Przed wyzwaniem:
+
+„Mina mówi: «Po prawej stronie mostku». Tylko z której strony idziemy?”
+
+„Wybierzemy stały punkt przy ścieżce. A zanim zawiesimy lampion, poznajmy kolejne pięć znaków.”
+
+Przycisk: Przygotuj przystanek
+
+Po ukończeniu:
+
+„Ten kamień rozpoznamy z obu stron. To lepsza wskazówka niż moje «tutaj».”
+
+Pamiątka: Niewielkie oznaczenie przy istniejącym kamieniu; most nadal jest cały i otwarty.
+
+Dalsza droga: „Następnym razem przygotujemy drogę od mostku do polany.”
+
+
+
+7. Droga do wspólnego stołu — Neri
+
+ま み む め も | ma, mi, mu, me, mo
+
+Przed wyzwaniem:
+
+„Od kamienia droga prowadzi prosto do polany z ławkami.”
+
+„Mam następny zestaw kart. Po ćwiczeniu zawiesimy tu światło dla gości.”
+
+Przycisk: Dokończ przystanek
+
+Po ukończeniu:
+
+„Teraz łatwo pokazać drogę. Zacznij przy kamieniu i idź w stronę polany.”
+
+Pamiątka: Oddzielny lampion przy dojściu do mostku i pamiątka mostu w notesie.
+
+Dalsza droga: „Hana czeka przy ławkach. Zostawiła dla nas wolne miejsce.”
+
+
+
+8. Jedno wolne miejsce — Hana
+
+や ゆ よ | ya, yu, yo
+
+Przed wyzwaniem:
+
+„Ławki już stoją. Zostawmy trochę miejsca dla kogoś, kto dojdzie później.”
+
+„Dzisiaj tylko trzy nowe znaki. Potem wybierzemy kwiaty do naszej dekoracji.”
+
+Przycisk: Przygotuj polanę
+
+Po ukończeniu:
+
+„Gotowe. Dobrze mieć miejsce, do którego można po prostu dołączyć.”
+
+Pamiątka: Koszyk kwiatów i poduszki przy istniejących ławkach. Nie tworzyć drugiego kompletu ławek.
+
+Dalsza droga: „Sora przechowuje dawne wspomnienia w małym domku nad szkołą.”
+
+
+
+9. Strona, której nie brakowało — Sora
+
+ら り る れ ろ | ra, ri, ru, re, ro
+
+Przed wyzwaniem:
+
+„Yuu martwi się pustą stroną. Myśli, że z notesu wypadła najważniejsza instrukcja.”
+
+„Przejrzyjmy następne pięć kart. Potem pokażę ci dopisek na odwrocie tej strony.”
+
+Przycisk: Otwórz album
+
+Po ukończeniu:
+
+„Jest tu napisane: «Zostaw miejsce na historię, której jeszcze nie znasz». Ta strona czekała na was.”
+
+Pamiątka: Odsłonięty dopisek w notesie, bez dodawania nowej strony jako zagubionego przedmiotu.
+
+Dalsza droga: „Wróć do Yuu przy szkole. Został ostatni krótki zestaw.”
+
+
+
+10. Nasza strona Kigi — Yuu
+
+わ を ん | wa, o, n
+
+Przed wyzwaniem:
+
+„Chciałem zrobić wszystko dokładnie tak jak poprzednia opiekunka. A ona zostawiła miejsce na naszą historię.”
+
+„Poznajmy ostatnie trzy znaki tego etapu. Potem wybierzesz pamiątkę na wspólną stronę.”
+
+Przycisk: Dopisz naszą historię
+
+Po ukończeniu:
+
+„Mamy nową stronę Kigi. Do znaków będziemy wracać, a nasze wspomnienie zostanie.”
+
+Pamiątka: Wybór pamiątki: szkoła, poczta albo mostek; wpis w notesie i możliwość rozpoczęcia finału na polanie.
+
+Dalsza droga: „Wieczór Lampionów będzie czekał przy ławkach. Rozpocznij go, kiedy zechcesz.”
+
+Uwaga językowa: を prezentujemy z odczytem o i informacją o zapisie wo w tabelach/klawiaturze. Przyjmujemy o oraz wo zgodnie z zasadami projektu. To wprowadzenie do rozpoznania znaku; jego funkcja jako partykuły wymaga osobnego ćwiczenia w kontekście. Nie rozróżniamy を i お w izolowanym zadaniu słuchowym. ん jest odrębną morą, nie piątą sylabą rzędu W.
+
+
+
+FINAŁ: WIECZÓR LAMPIONÓW
+
+Scena fabularna bez dodatkowego egzaminu; nie jest jedenastą grupą znaków.
+
+Miejsce: Polana z ławkami
+
+Mina: „Zostawiłam jedno zaproszenie dla kogoś nowego.”
+
+Toma: „I każdy lampion jest trochę inny.”
+
+Neri: „Z mostku widać już nasze miejsce.”
+
+Hana: „Przysiądź. Miejsce dla ciebie czekało od początku.”
+
+Sora: „A pusta strona ma już swoją opowieść.”
+
+Yuu: „To nasz pierwszy Wieczór Lampionów. Następne historie dopiszemy razem.”
+
+Yuu: «W hiraganie są jeszcze małe znaki i nowe połączenia. Poznamy je na tych samych ścieżkach. A kiedyś zajrzymy też za górną bramę».
+
+
+
+REAKCJE NA ODPOWIEDZI
+
+correct: Tak — {kana} czytamy «{reading}».
+
+incorrect: Ten znak czytamy «{reading}». Spójrzmy na niego jeszcze raz.
+
+dont_know: Sprawdźmy razem: «{reading}».
+
+return_after_break: Dobrze znów cię widzieć. Możemy wrócić do miejsca, w którym skończyliśmy.
+
+
+
+ZASADY
+
+Brak kar fabularnych za błędy lub nieobecność.
+
+Lampiony nie są zasilane poprawnymi odpowiedziami.
+
+Znakom nie nadajemy zmyślonych znaczeń.
+
+Karty edukacyjne są szkolnymi pomocami, nie autentycznymi szyldami z losowych sylab.
+
+Podpowiedź i wymowa podczas odczytu pojawiają się dopiero po odpowiedzi lub świadomym wyborze wsparcia.
+
+Postęp świata i utrwalenie materiału to osobne informacje.
+
+Nowa grupa nie startuje automatycznie po zakończeniu poprzedniej.
+
+
+
+DALSZY ZAKRES HIRAGANY
+
+がぎぐげご — Nowe oznaczenia w pracowni
+
+ざじずぜぞ — Nowy plik pocztowych kart
+
+だぢづでど — Podobne brzmienia, różne zapisy
+
+ばびぶべぼ — Kolejny przystanek przy strumieniu
+
+ぱぴぷぺぽ — Okrągłe znaczki na szkolnych kartach
+
+Małe ゃゅょ, małe っ, długość samogłosek, odczyt partykuł — Osobne małe lekcje przed deklarowaniem pełnego zakresu hiragany
+
+
+
+GRAFIKI
+
+Sześć oddzielnych, statycznych PNG z przezroczystością, jedna poza każdej postaci; pierwsza propozycja wizualna do oceny na mapie.
+
+Ta sama grafika może działać na mapie i przy panelu dialogowym. Tekst jest zawsze osobnym elementem interfejsu.
+
+Brak animacji, rigów Rive, osobnych póz reakcji i wdrożenia w Flutterze. Nowy Yuu nie jest potwierdzonym odpowiednikiem istniejącej animacji Rive.
+
+Dopasować skalę i faktyczny punkt stóp każdego eksportu. Uwzględnić warstwy mostku, schodów i budynków. Nie umieszczać aktywnych NPC-ów za budynkami ani na wodzie.
+
+
+
+ŹRÓDŁA
+
+Zarys fabuły: docs/fabula-kigi.md
+
+Tabela hiragany i odczytów: The Japan Foundation, Irodori — https://jpfbj.cn/irodori/resources/pdf/X_Hiragana_All.pdf
+
+Mapa: obraz przesłany przez użytkownika.
+
+Grafiki: wbudowane narzędzie imagegen; pełne instrukcje w prompty-graficzne.json.

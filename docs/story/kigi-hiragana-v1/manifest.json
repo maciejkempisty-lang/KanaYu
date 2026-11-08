@@ -1,0 +1,106 @@
+{
+  "package": "kigi-hiragana-v1",
+  "status": "proposal_not_integrated",
+  "files": [
+    {
+      "file": "CZYTAJ-NAJPIERW.txt",
+      "bytes": 2105,
+      "sha256": "2fe355423770bb5a39891efc693258de808ede2151522a1b78ec890b7972e782"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4529,
+      "sha256": "21b54983bb1817d927c267479282136acd2c23c0eb3ef9e5e53f9be5c677fa32"
+    },
+    {
+      "file": "dialogi-i-npc.json",
+      "bytes": 23068,
+      "sha256": "7480436fdb2bdeb109c9b6b2d338b0d4b5fe8afffd8f7881c92e1a6801f4fe3f"
+    },
+    {
+      "file": "kontrola-grafik.json",
+      "bytes": 1510,
+      "sha256": "e542ad13971d10b59c86e4b7bb8c52828e3730969cfb2a35a2ad5729ed5166c9"
+    },
+    {
+      "file": "map-reference.png",
+      "bytes": 4114455,
+      "sha256": "745c12c5b6a230a354ce7dff5df29c875648ef31834ce94a18326526a1500970"
+    },
+    {
+      "file": "mapa-i-dialogi.html",
+      "bytes": 824535,
+      "sha256": "94591691f4b7d8fb3f293470326c4f07f2ba4ea3cbe9b98db813ea6dacac3098"
+    },
+    {
+      "file": "npc/hana.png",
+      "bytes": 1215652,
+      "sha256": "ec58e8503fc50563375b08f553da78d59e79e7e8e0b5c00029e37482523bd32c"
+    },
+    {
+      "file": "npc/mina.png",
+      "bytes": 1430783,
+      "sha256": "90b94c887a02a126c6fb772c74bf4891df7ea9078bae99bd65e25a2c396e9313"
+    },
+    {
+      "file": "npc/neri.png",
+      "bytes": 1160819,
+      "sha256": "05939150614ef9a38efc851f216e64e7f23b57c9a5afa3a8a341ee9398b73732"
+    },
+    {
+      "file": "npc/sora.png",
+      "bytes": 1408745,
+      "sha256": "f1cfd98129029edc48c73a21823900ca53230b14b3be5f6ed5d8feecea6f8a04"
+    },
+    {
+      "file": "npc/toma.png",
+      "bytes": 1476191,
+      "sha256": "37b94cdf173186ab2f3c63eb99e1e6f8b9bfca4d43b53d969213366385f409f7"
+    },
+    {
+      "file": "npc/yuu.png",
+      "bytes": 1342492,
+      "sha256": "e72ab723bfcd24ae1917ef4b551f196926447ec3e88a7762e8b0d5ceb1c74698"
+    },
+    {
+      "file": "podglady/hana.png",
+      "bytes": 36790,
+      "sha256": "0ba13817c0b2158748ba17eb822662c2b7d4920d829b3654d1578e4cdb47b1fd"
+    },
+    {
+      "file": "podglady/mina.png",
+      "bytes": 42785,
+      "sha256": "dbbe32f69c19573981105d095548903402a2127b897023a6115e653025a9abb6"
+    },
+    {
+      "file": "podglady/neri.png",
+      "bytes": 36416,
+      "sha256": "da05275f9d59b250ba6f3433d131a52dc8b432d6f5df3d98e45222f693b1e51d"
+    },
+    {
+      "file": "podglady/sora.png",
+      "bytes": 42256,
+      "sha256": "7cd6a9ade440b501209c92dae40556ff0f5918e4eb850b33b4ac3dd8018cc831"
+    },
+    {
+      "file": "podglady/toma.png",
+      "bytes": 46129,
+      "sha256": "5d910fe5c33c61ca9cf2882f2dfe5614fa6fc172f2a9b3b9a7bd0f1cc79f0521"
+    },
+    {
+      "file": "podglady/yuu.png",
+      "bytes": 42190,
+      "sha256": "e85b38527c86cd3aac0801ddd3d80ab05e87daa1af5e46a2a0b2349d7b39f441"
+    },
+    {
+      "file": "prompty-graficzne.json",
+      "bytes": 10198,
+      "sha256": "b6191a8914386c4c18a1073d73710ee9af362542352b59662dba950731ec2431"
+    },
+    {
+      "file": "scenariusz.txt",
+      "bytes": 15681,
+      "sha256": "026af52e3ba8d4aa96bfe24c0d7bffdb30800897e6f561f2352ea36d04fa7ed6"
+    }
+  ]
+}

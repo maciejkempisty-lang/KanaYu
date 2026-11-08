@@ -1,0 +1,57 @@
+{
+  "generator": "Built-in imagegen",
+  "reference": "map-reference.png",
+  "transparent_background": true,
+  "prompts": [
+    {
+      "id": "yuu",
+      "prompt": "Use case: stylized-concept. Asset type: individual transparent PNG NPC character for the Polish hiragana-learning game KanaYu, Kigi: Ścieżka lampionów. Input image: the provided vertical village map is a STYLE, PALETTE, LIGHTING and CAMERA reference only. Create a NEW isolated character; do not reproduce the map. Match its richly hand-painted cozy Japanese woodland village, soft gouache brush textures, natural forms and warm diffuse daylight from upper-left. Camera: three-quarter front view with a modest elevated view so we see the top of the head; face angled slightly toward viewer's right. Consistent cute miniature proportions around 2.5 heads tall, visually clear as a 70-pixel-high game character. Full-body single standing character, centered on a square canvas, fills 78% of canvas height, feet near y=0.90, generous clean transparent margin, nothing cropped. Crisp readable silhouette, painterly opaque subject, no thick black outline, no glossy plastic 3D. Genuinely transparent alpha background. No scene, no ground, no contact shadow, no floor ellipse, no title, no letters, no kana, no UI, no watermark, no border, no other characters, no variations or contact sheet. Primary subject: Yuu, the leafy school caretaker: a small gentle forest spirit, round warm pale-cream face, two dark bead eyes, tiny smile, a layered crown of broad green leaves, rounded moss-green body, short twiglike arms and feet, a simple dark moss wrap and a closed tan notebook with no writing held in one hand. Expressive but reserved. Definitely a plant spirit, not a human or animal."
+    },
+    {
+      "id": "mina",
+      "prompt": "Use case: stylized-concept. Asset type: individual transparent PNG NPC character for the Polish hiragana-learning game KanaYu, Kigi: Ścieżka lampionów. Input image: the provided vertical village map is a STYLE, PALETTE, LIGHTING and CAMERA reference only. Create a NEW isolated character; do not reproduce the map. Match its richly hand-painted cozy Japanese woodland village, soft gouache brush textures, natural forms and warm diffuse daylight from upper-left. Camera: three-quarter front view with a modest elevated view so we see the top of the head; face angled slightly toward viewer's right. Consistent cute miniature proportions around 2.5 heads tall, visually clear as a 70-pixel-high game character. Full-body single standing character, centered on a square canvas, fills 78% of canvas height, feet near y=0.90, generous clean transparent margin, nothing cropped. Crisp readable silhouette, painterly opaque subject, no thick black outline, no glossy plastic 3D. Genuinely transparent alpha background. No scene, no ground, no contact shadow, no floor ellipse, no title, no letters, no kana, no UI, no watermark, no border, no other characters, no variations or contact sheet. Primary subject: Mina, the mail carrier: a small anthropomorphic forest bird, warm russet head and wings, cream throat and belly, dark bead eyes, a tiny golden beak, short sturdy feet, a teal neck scarf, a worn tan crossbody mail bag with one blank cream envelope partly visible. One wing lightly raised in greeting. Body upright on two feet, wings remain feathered."
+    },
+    {
+      "id": "toma",
+      "prompt": "Use case: stylized-concept. Asset type: individual transparent PNG NPC character for the Polish hiragana-learning game KanaYu, Kigi: Ścieżka lampionów. Input image: the provided vertical village map is a STYLE, PALETTE, LIGHTING and CAMERA reference only. Create a NEW isolated character; do not reproduce the map. Match its richly hand-painted cozy Japanese woodland village, soft gouache brush textures, natural forms and warm diffuse daylight from upper-left. Camera: three-quarter front view with a modest elevated view so we see the top of the head; face angled slightly toward viewer's right. Consistent cute miniature proportions around 2.5 heads tall, visually clear as a 70-pixel-high game character. Full-body single standing character, centered on a square canvas, fills 78% of canvas height, feet near y=0.90, generous clean transparent margin, nothing cropped. Crisp readable silhouette, painterly opaque subject, no thick black outline, no glossy plastic 3D. Genuinely transparent alpha background. No scene, no ground, no contact shadow, no floor ellipse, no title, no letters, no kana, no UI, no watermark, no border, no other characters, no variations or contact sheet. Primary subject: Toma, the lantern maker: a small friendly anthropomorphic tortoise with a clearly visible warm olive segmented shell, sage-green head and limbs, tiny dark eyes and gentle smile, ochre linen apron. Holds ONE small unfinished bamboo lantern hoop at waist height; no light source. Broad, stable silhouette, deliberate and calm. Upright on two legs."
+    },
+    {
+      "id": "neri",
+      "prompt": "Use case: stylized-concept. Asset type: individual transparent PNG NPC character for the Polish hiragana-learning game KanaYu, Kigi: Ścieżka lampionów. Input image: the provided vertical village map is a STYLE, PALETTE, LIGHTING and CAMERA reference only. Create a NEW isolated character; do not reproduce the map. Match its richly hand-painted cozy Japanese woodland village, soft gouache brush textures, natural forms and warm diffuse daylight from upper-left. Camera: three-quarter front view with a modest elevated view so we see the top of the head; face angled slightly toward viewer's right. Consistent cute miniature proportions around 2.5 heads tall, visually clear as a 70-pixel-high game character. Full-body single standing character, centered on a square canvas, fills 78% of canvas height, feet near y=0.90, generous clean transparent margin, nothing cropped. Crisp readable silhouette, painterly opaque subject, no thick black outline, no glossy plastic 3D. Genuinely transparent alpha background. No scene, no ground, no contact shadow, no floor ellipse, no title, no letters, no kana, no UI, no watermark, no border, no other characters, no variations or contact sheet. Primary subject: Neri, the stream-side path caretaker: a small friendly anthropomorphic river otter, cinnamon-brown fur, cream muzzle and belly, tiny dark eyes, rounded ears, a thick tail curling beside the feet without being cropped, simple muted indigo sleeveless vest, a short neatly coiled straw rope held against the body. Curious welcoming pose, upright on two feet."
+    },
+    {
+      "id": "hana",
+      "prompt": "Use case: stylized-concept. Asset type: individual transparent PNG NPC character for the Polish hiragana-learning game KanaYu, Kigi: Ścieżka lampionów. Input image: the provided vertical village map is a STYLE, PALETTE, LIGHTING and CAMERA reference only. Create a NEW isolated character; do not reproduce the map. Match its richly hand-painted cozy Japanese woodland village, soft gouache brush textures, natural forms and warm diffuse daylight from upper-left. Camera: three-quarter front view with a modest elevated view so we see the top of the head; face angled slightly toward viewer's right. Consistent cute miniature proportions around 2.5 heads tall, visually clear as a 70-pixel-high game character. Full-body single standing character, centered on a square canvas, fills 78% of canvas height, feet near y=0.90, generous clean transparent margin, nothing cropped. Crisp readable silhouette, painterly opaque subject, no thick black outline, no glossy plastic 3D. Genuinely transparent alpha background. No scene, no ground, no contact shadow, no floor ellipse, no title, no letters, no kana, no UI, no watermark, no border, no other characters, no variations or contact sheet. Primary subject: Hana, host of the gathering clearing: a tiny friendly anthropomorphic wood mouse with warm grey-brown fur, round ears, cream muzzle, dark bead eyes, simple muted terracotta apron dress, a small wicker basket with three pale flowers held at the waist, a single small sage leaf tucked near one ear. Cheerful calm pose, upright on two feet, short tail fully inside the canvas."
+    },
+    {
+      "id": "sora",
+      "prompt": "Use case: stylized-concept. Asset type: individual transparent PNG NPC character for the Polish hiragana-learning game KanaYu, Kigi: Ścieżka lampionów. Input image: the provided vertical village map is a STYLE, PALETTE, LIGHTING and CAMERA reference only. Create a NEW isolated character; do not reproduce the map. Match its richly hand-painted cozy Japanese woodland village, soft gouache brush textures, natural forms and warm diffuse daylight from upper-left. Camera: three-quarter front view with a modest elevated view so we see the top of the head; face angled slightly toward viewer's right. Consistent cute miniature proportions around 2.5 heads tall, visually clear as a 70-pixel-high game character. Full-body single standing character, centered on a square canvas, fills 78% of canvas height, feet near y=0.90, generous clean transparent margin, nothing cropped. Crisp readable silhouette, painterly opaque subject, no thick black outline, no glossy plastic 3D. Genuinely transparent alpha background. No scene, no ground, no contact shadow, no floor ellipse, no title, no letters, no kana, no UI, no watermark, no border, no other characters, no variations or contact sheet. Primary subject: Sora, keeper of village memories: a small friendly anthropomorphic forest owl, softly rounded cream facial disk, warm grey and walnut plumage, tiny golden beak, dark eyes, a simple muted plum shawl, a closed blue-grey clothbound book with no writing tucked under one wing. No hat or glasses. Both feet visible, calm listening pose."
+    }
+  ],
+  "outputs": [
+    {
+      "id": "yuu",
+      "path": "npc/yuu.png"
+    },
+    {
+      "id": "mina",
+      "path": "npc/mina.png"
+    },
+    {
+      "id": "toma",
+      "path": "npc/toma.png"
+    },
+    {
+      "id": "neri",
+      "path": "npc/neri.png"
+    },
+    {
+      "id": "hana",
+      "path": "npc/hana.png"
+    },
+    {
+      "id": "sora",
+      "path": "npc/sora.png"
+    }
+  ]
+}

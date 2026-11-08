@@ -1,0 +1,26 @@
+KIGI — PAKIET NPC I DIALOGÓW v1
+8 listopada 2026
+
+Zawartość:
+• scenariusz.txt — pełne opisy postaci, założenia adaptacji, 10 spotkań, dialogi po powrocie i finał.
+• dialogi-i-npc.json — te same treści w uporządkowanej formie, proponowane pozycje na mapie i kolejność wyzwań.
+• npc/ — sześć oryginalnych grafik PNG 1254 × 1254 z przezroczystością.
+• podglady/ — pomniejszone kopie PNG 192 × 192 do przeglądania.
+• prompty-graficzne.json — dokładne instrukcje użyte w narzędziu imagegen.
+• kontrola-grafik.json — wymiary, tryb obrazu i obszary zawartości.
+• manifest.json — lista plików i sumy kontrolne.
+• map-reference.png — mapa przekazana jako odniesienie.
+• mapa-i-dialogi.html — samodzielny podgląd rozmieszczenia postaci i rozmów.
+• README.md — opis pakietu widoczny w repozytorium.
+
+Status:
+To pierwsza propozycja postaci i treści, oparta na zarysie KanaYu i mapie użytkownika. Nie zmieniono kodu KanaYu ani YuChallenge. Sześć grafik ma po jednej pozie. Nie są to animowane postacie Rive.
+
+Yuu, Mina i Toma pochodzą z dotychczasowej fabuły. Neri, Hana i Sora są propozycjami nowych mieszkańców. Wygląd Yuu jest nową interpretacją opisu liściastego opiekuna, a nie zweryfikowaną kopią istniejącej animacji.
+
+Zakres pierwszego etapu: 46 podstawowych znaków w 10 spotkaniach. To nie całość reguł hiragany. Dakuten, handakuten, małe znaki i długość samogłosek wymagają kolejnych lekcji.
+
+Grafiki mają wspólny rozmiar płótna, ale różne marginesy i pozycje stóp. Przed integracją należy ustawić pivot dla każdej postaci. Mapa z rozmieszczeniem jest podglądem, a współrzędne w JSON są propozycją.
+
+Kontrola:
+Sprawdzono 6 PNG RGBA, obecność przezroczystego tła, komplet i unikalność 46 znaków, zgodność liczby odczytów, kolejność zależności i odwołania do NPC-ów. Obejrzano postacie na mapie i przełączenie rozmowy w lokalnym podglądzie. Docelowe style podglądu w czacie oraz działanie na telefonie nie były testowane; lokalny podgląd używał zastępczego formatowania.

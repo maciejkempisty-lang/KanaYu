@@ -1,0 +1,104 @@
+[
+  {
+    "id": "yuu",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "transparent_pixels": 984523,
+    "opaque_pixels": 636,
+    "bbox_alpha128": [
+      191,
+      18,
+      1000,
+      1222
+    ],
+    "file": "npc/yuu.png"
+  },
+  {
+    "id": "mina",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "transparent_pixels": 963627,
+    "opaque_pixels": 593,
+    "bbox_alpha128": [
+      174,
+      53,
+      1104,
+      1213
+    ],
+    "file": "npc/mina.png"
+  },
+  {
+    "id": "toma",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "transparent_pixels": 920007,
+    "opaque_pixels": 411,
+    "bbox_alpha128": [
+      224,
+      45,
+      978,
+      1215
+    ],
+    "file": "npc/toma.png"
+  },
+  {
+    "id": "neri",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "transparent_pixels": 1063904,
+    "opaque_pixels": 333,
+    "bbox_alpha128": [
+      236,
+      89,
+      909,
+      1186
+    ],
+    "file": "npc/neri.png"
+  },
+  {
+    "id": "hana",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "transparent_pixels": 1063246,
+    "opaque_pixels": 302,
+    "bbox_alpha128": [
+      259,
+      53,
+      921,
+      1210
+    ],
+    "file": "npc/hana.png"
+  },
+  {
+    "id": "sora",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "transparent_pixels": 976871,
+    "opaque_pixels": 599,
+    "bbox_alpha128": [
+      239,
+      53,
+      992,
+      1201
+    ],
+    "file": "npc/sora.png"
+  }
+]
