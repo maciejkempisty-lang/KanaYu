@@ -1,6 +1,6 @@
 # Kigi — NPC-e i dialogi do mapy hiragany
 
-Pakiet koncepcyjny v1 · 8 listopada 2026
+Pakiet koncepcyjny v1.1 · 8 listopada 2026
 
 **Status: materiały do dalszego wdrożenia.** Ten pakiet nie zmienia działającej aplikacji Flutter. Zawiera sześć statycznych postaci, opisy mieszkańców, dziesięć spotkań z grupami hiragany i propozycję rozmieszczenia na mapie.
 
@@ -10,7 +10,7 @@ Rozwija [zarys „Ścieżki lampionów”](../../fabula-kigi.md). Zachowuje Yuu,
 
 - [Pełny scenariusz i dialogi](scenariusz.txt).
 - [Treści, kolejność wyzwań i pozycje NPC-ów w JSON](dialogi-i-npc.json).
-- [Podgląd mapy i rozmów](mapa-i-dialogi.html) — pobierz plik i otwórz w przeglądarce. Kliknij imię postaci; listą „Spotkanie” wybierzesz jej kolejne rozmowy. To podgląd treści, bez działających ćwiczeń językowych.
+- [Podgląd mapy i rozmów](mapa-i-dialogi.html) — pobierz plik i otwórz w przeglądarce. Kliknij imię postaci; listą „Spotkanie” wybierzesz jej kolejne rozmowy. Sekcja „Reakcje w ćwiczeniu” pokazuje próbki wypowiedzi danej postaci. To podgląd treści, bez działających ćwiczeń językowych.
 - [Mapa odniesienia](map-reference.png).
 - [Oryginalne grafiki PNG](npc/) i [pomniejszone podglądy](podglady/).
 - [Prompty graficzne](prompty-graficzne.json), [parametry grafik](kontrola-grafik.json) i [manifest plików](manifest.json).
@@ -26,6 +26,19 @@ Rozwija [zarys „Ścieżki lampionów”](../../fabula-kigi.md). Zachowuje Yuu,
 |---|---|---|
 | ![Neri](podglady/neri.png) | ![Hana](podglady/hana.png) | ![Sora](podglady/sora.png) |
 | Wydra dbająca o drogę przy strumieniu. | Mysz przygotowująca miejsce spotkania. | Sowa przechowująca wspomnienia wioski. |
+
+## Głosy postaci — aktualizacja v1.1
+
+| Postać | Charakter i sposób mówienia | Przykład |
+|---|---|---|
+| Yuu | Serdeczny pedant; porządkuje wszystko w notesie i uczy się odpuszczać. | „Mam jeszcze pięć kart. Leżą równiutko, więc spokojnie poczekają na następne spotkanie.” |
+| Mina | Rozgadana i ciekawska; szybkie skojarzenia, dygresje, samokorekty. | „Powiedz, że poczta gotowa. Tylko tyle. Wiem, też uważam, że to krótka wiadomość.” |
+| Toma | Niespieszny, wytrwały fachowiec; oszczędne słowa i suchy humor. | „Wszystko odłożone. Nic nie uciekło. Papier próbował, ale przycisnąłem go kamieniem.” |
+| Neri | Figlarna eksperymentatorka; testuje pomysły i nadaje kamykom ważne zadania. | „Mam skrót do polany. Sprawdziłam: jest dłuższy od zwykłej drogi.” |
+| Hana | Nieśmiała i zapobiegliwa; dba o drobiazgi, a w sprawach gościnności jest stanowcza. | „Mam dodatkową poduszkę. I jeszcze jedną, gdyby ta pierwsza nie pasowała.” |
+| Sora | Uczona z odrobiną próżności; podniosły wstęp, zwyczajne dopowiedzenie i dystans do siebie. | „Witaj. Badałam właśnie... ach, szukałam zakładki.” |
+
+Pełne wskazówki do pisania każdej postaci są w `npcs[].voice_guide`. Indywidualne teksty odpowiedzi są w `npcs[].feedback`; wspólne `interaction.feedback` pozostaje wersją zapasową. Reakcje nie zawstydzają gracza. Humor nie zagłusza sceny pustej strony notesu ani finału. To baśniowe inspiracje zwierzęce; bez ciągłych odgłosów i powtarzania jednej puenty.
 
 ## Kolejność wyzwań
 

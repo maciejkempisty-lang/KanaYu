@@ -1,21 +1,22 @@
 {
   "package": "kigi-hiragana-v1",
+  "revision": "1.1",
   "status": "proposal_not_integrated",
   "files": [
     {
       "file": "CZYTAJ-NAJPIERW.txt",
-      "bytes": 2105,
-      "sha256": "2fe355423770bb5a39891efc693258de808ede2151522a1b78ec890b7972e782"
+      "bytes": 2305,
+      "sha256": "64aae4a74b969ddc349634db4f91f207f009ba32253a3e53ff43952b7e73624e"
     },
     {
       "file": "README.md",
-      "bytes": 4529,
-      "sha256": "21b54983bb1817d927c267479282136acd2c23c0eb3ef9e5e53f9be5c677fa32"
+      "bytes": 6155,
+      "sha256": "ce7adeb0ed96ac4fcd1f15a3916e90d966cd1739f2014795c3e4df44fa68ea24"
     },
     {
       "file": "dialogi-i-npc.json",
-      "bytes": 23068,
-      "sha256": "7480436fdb2bdeb109c9b6b2d338b0d4b5fe8afffd8f7881c92e1a6801f4fe3f"
+      "bytes": 33938,
+      "sha256": "80840ae06c58fec6bb425e414e1877b10a8eececcab17ecce8d286fe4d304d84"
     },
     {
       "file": "kontrola-grafik.json",
@@ -29,8 +30,8 @@
     },
     {
       "file": "mapa-i-dialogi.html",
-      "bytes": 824535,
-      "sha256": "94591691f4b7d8fb3f293470326c4f07f2ba4ea3cbe9b98db813ea6dacac3098"
+      "bytes": 836982,
+      "sha256": "21b8f0b4e2faca7b5122e7c94a56cf90cb61ad2c1abfa35f57312e5161768fdb"
     },
     {
       "file": "npc/hana.png",
@@ -99,8 +100,8 @@
     },
     {
       "file": "scenariusz.txt",
-      "bytes": 15681,
-      "sha256": "026af52e3ba8d4aa96bfe24c0d7bffdb30800897e6f561f2352ea36d04fa7ed6"
+      "bytes": 25518,
+      "sha256": "defa13750062d26b4821d293debcc9c02323a213c907311554f1a69305095979"
     }
   ]
 }

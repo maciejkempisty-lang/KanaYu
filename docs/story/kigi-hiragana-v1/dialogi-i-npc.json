@@ -1,5 +1,5 @@
 {
-  "version": "kigi-hiragana-map/1.0-draft",
+  "version": "kigi-hiragana-map/1.1-draft",
   "date": "2026-11-08",
   "title": "Kigi — pierwsza Ścieżka Lampionów",
   "status": "Propozycja treści i statycznych grafik. Nie jest wdrożeniem w aplikacji.",
@@ -66,7 +66,8 @@
       "Podpowiedź i wymowa podczas odczytu pojawiają się dopiero po odpowiedzi lub świadomym wyborze wsparcia.",
       "Postęp świata i utrwalenie materiału to osobne informacje.",
       "Nowa grupa nie startuje automatycznie po zakończeniu poprzedniej."
-    ]
+    ],
+    "feedback_selection": "Po próbie użyj npcs[].feedback bieżącej postaci; przy braku wpisu użyj wspólnego interaction.feedback. Podstaw kana i reading dopiero po odpowiedzi lub świadomym odsłonięciu wzorca. Są to teksty do przyszłej integracji."
   },
   "npcs": [
     {
@@ -75,9 +76,9 @@
       "origin": "Postać z istniejącego zarysu; nowa propozycja statycznego wyglądu.",
       "species": "Liściasty duch lasu",
       "role": "Opiekun szkoły i przewodnik",
-      "personality": "Troskliwy, skrupulatny; stopniowo przestaje traktować notes jak instrukcję.",
+      "personality": "Serdeczny pedant z duszą ogrodnika. Robi listy nawet do prostych spraw i trochę za bardzo ufa staremu notesowi. Z czasem pozwala wspólnej historii rosnąć po swojemu.",
       "appearance": "Korona zielonych liści, jasna okrągła twarz, mszysta sylwetka, prosty notes. Czytelny gest powitania.",
-      "voice": "Krótkie, spokojne zdania; zaprasza i zostawia wybór.",
+      "voice": "Uporządkowane zdania, wyliczenia i drobne poprawianie samego siebie. Delikatne porównania do liści i wzrostu. Jego troska zawsze jest ważniejsza od planu.",
       "location": "Przy schodkach dużego budynku szkoły w środkowej części mapy.",
       "anchor": [
         0.51,
@@ -90,9 +91,24 @@
         "h02",
         "h10"
       ],
-      "greeting_locked": "Witaj w Kigi. Zaczniemy spokojnie, od kilku znaków.",
-      "repeat": "Do tych kart zawsze można wrócić. Którą grupę chcesz powtórzyć?",
-      "resume": "Notes czeka otwarty. Wrócimy do naszej ostatniej karty?"
+      "greeting_locked": "Witaj! Mam notes, karty i plan powitania. Ach, właśnie: jestem Yuu. Miło cię widzieć.",
+      "repeat": "W notesie jest zakładka. Właściwie trzy, na wszelki wypadek. Do której grupy wracamy?",
+      "resume": "Zaznaczyłem nasze miejsce listkiem. Tym małym. Duży był do czegoś innego.",
+      "voice_guide": {
+        "archetype": "Opiekuńczy organizator, który uczy się odpuszczać",
+        "inspiration": "Liściasty duch: zakorzenienie, pielęgnowanie, cierpliwy wzrost.",
+        "rhythm": "Najpierw porządkuje myśli, potem dodaje ciepłe, osobiste zdanie.",
+        "humor": "Niepotrzebnie szczegółowe listy i łagodne poprawianie własnych planów.",
+        "weakness": "Pomyłkę we własnym planie bierze zbyt poważnie; nie oczekuje idealnych odpowiedzi od gracza.",
+        "arc": "Na początku szuka instrukcji w notesie. W finale zapisuje to, co wspólnie przeżyli, zamiast odhaczać wykonanie planu.",
+        "restraint": "Porównania roślinne tylko od czasu do czasu; nie przypisuje znakom znaczeń związanych z naturą."
+      },
+      "feedback": {
+        "correct": "Tak, {kana} czytamy «{reading}». Tę kartę możemy odłożyć.",
+        "incorrect": "Tu czytamy «{reading}». Plan może poczekać; przyjrzyjmy się karcie.",
+        "dont_know": "Zajrzyjmy razem: «{reading}». Zostawimy tu zakładkę.",
+        "return_after_break": "O, jesteś. Wszystko na swoim miejscu. A jeśli coś przestawimy, też będzie dobrze."
+      }
     },
     {
       "id": "mina",
@@ -100,9 +116,9 @@
       "origin": "Postać z istniejącego zarysu.",
       "species": "Mały leśny ptak",
       "role": "Listonoszka",
-      "personality": "Energiczna, serdeczna; pamięta wszystkie ścieżki i czasem zapomina, że inni dopiero je poznają.",
+      "personality": "Rozgadana, ciekawska i zawsze o jedną myśl przed rozmówcą. Ma ptasi zapał do zbierania wieści, lecz w sprawach poczty jest niezawodna. Uczy się zostawiać innym czas na odpowiedź.",
       "appearance": "Rdzawo-kremowe pióra, turkusowa chustka, jasnobrązowa torba z pustą kopertą.",
-      "voice": "Żwawe, konkretne zdania; drobny żart o własnym pośpiechu.",
+      "voice": "Krótkie zrywy, wtrącenia «O!» i «A właśnie!», zabawne dopowiedzenia. Potrafi sama zauważyć, że mówi za szybko, i oddać głos rozmówcy.",
       "location": "Obok czerwonej skrzynki pod wielkim drzewem na dole mapy.",
       "anchor": [
         0.43,
@@ -113,9 +129,24 @@
       "encounters": [
         "h03"
       ],
-      "greeting_locked": "Sortuję zaproszenia. Zajrzyj najpierw do Yuu przy szkole — pokaże ci pierwsze karty.",
-      "repeat": "Zaproszenia już gotowe. Nasze karty pocztowe nadal tu są.",
-      "resume": "Twoją kopertę odłożyłam na bok. Dokończymy ją razem?"
+      "greeting_locked": "O, nowa twarz! Pokażę ci wszystko. Najpierw szkołę. To znaczy: Yuu pokaże szkołę. Ja mam pocztę.",
+      "repeat": "Jeszcze raz? Chętnie! Karty mam tutaj. Opowieść o nich też, ale najpierw karty.",
+      "resume": "Twoja koperta jest tutaj! Opowiedziałabym, jak ją znalazłam, ale przecież sama ją odłożyłam.",
+      "voice_guide": {
+        "archetype": "Towarzyska gaduła o wielkim sercu",
+        "inspiration": "Leśny ptak: szczebiotliwość, ruchliwość, ciekawość wszystkiego dookoła.",
+        "rhythm": "Dwie szybkie myśli i krótka samokorekta; wypowiedź nadal mieści się na małym ekranie.",
+        "humor": "Dygresja wpada jej do głowy w połowie ważnej informacji.",
+        "weakness": "Opowiada drogę tak, jakby każdy już znał wioskę. Przyznaje się do tego bez obwiniania rozmówcy.",
+        "arc": "Zamiast decydować za nową osobę, zostawia jej zaproszenie i przestrzeń na własną historię.",
+        "restraint": "Nie ponagla gracza, nie zdradza treści cudzej korespondencji, nie ćwierka w każdym zdaniu."
+      },
+      "feedback": {
+        "correct": "Tak, «{reading}»! O, ten mamy.",
+        "incorrect": "Tu jest «{reading}». O, pokażę ci. Możemy chwilę przy nim zostać.",
+        "dont_know": "Już pokazuję: «{reading}». Następna karta może poczekać.",
+        "return_after_break": "O, jesteś! Mam tyle do opowiedzenia. Ale najpierw: co u ciebie?"
+      }
     },
     {
       "id": "toma",
@@ -123,9 +154,9 @@
       "origin": "Postać z istniejącego zarysu.",
       "species": "Żółw",
       "role": "Rzemieślnik przygotowujący lampiony",
-      "personality": "Cierpliwy i dokładny; zastanawia się, czy wszystkie lampiony powinny być jednakowe.",
+      "personality": "Powolny, uparty w drobiazgach i niewzruszony rzemieślnik. Ma suchy humor oraz zaskakująco celne riposty. Dba o trwałość rzeczy, ale uczy się cenić także ich niedoskonałości.",
       "appearance": "Oliwkowa skorupa, ochrowy fartuch, jeden bambusowy obręczowy szkielet lampionu.",
-      "voice": "Niewiele słów, spokojny rytm, uwaga skierowana na pracę.",
+      "voice": "Krótkie, oszczędne zdania. Spokojny rytm i puenta wypowiedziana zupełnie serio. Nie przeciąga słów ani nie zasypia podczas rozmowy.",
       "location": "Przed otwartą pracownią z lampionami na najwyższym tarasie.",
       "anchor": [
         0.59,
@@ -137,9 +168,24 @@
         "h04",
         "h05"
       ],
-      "greeting_locked": "Pracownia jest otwarta. Gdy skończysz u Miny, przygotujemy coś razem.",
-      "repeat": "Papieru wystarczy. Możemy jeszcze raz przejrzeć wybraną grupę kart.",
-      "resume": "Odłożyłem twoje materiały. Wszystko jest na swoim miejscu."
+      "greeting_locked": "Dzień dobry. Pracownia otwarta. Skończ spokojnie u Miny. Ja nigdzie szybko nie idę.",
+      "repeat": "Możemy wrócić do kart. One się nie zużywają. Sprawdzałem.",
+      "resume": "Wszystko odłożone. Nic nie uciekło. Papier próbował, ale przycisnąłem go kamieniem.",
+      "voice_guide": {
+        "archetype": "Cierpliwy fachowiec z kamienną twarzą",
+        "inspiration": "Żółw: niespieszność, wytrwałość, stałość i własne tempo.",
+        "rhythm": "Mało słów. Pauzę tworzy krótkie zdanie, a nie ciąg wielokropków.",
+        "humor": "Sucha, rzeczowa puenta o sobie lub przedmiocie pracy.",
+        "weakness": "Czasem zbyt długo porównuje dwa dobre rozwiązania. Nigdy nie wymaga perfekcji od osoby uczącej się.",
+        "arc": "Przestaje szukać jednego idealnego kształtu lampionu; zostawia każdemu własny charakter.",
+        "restraint": "Spokój nie oznacza znudzenia. Nie wygłasza morału po każdej odpowiedzi."
+      },
+      "feedback": {
+        "correct": "«{reading}». Zgadza się.",
+        "incorrect": "Ten czytamy «{reading}». Przyjrzyjmy mu się spokojnie.",
+        "dont_know": "«{reading}». Od tego możemy zacząć.",
+        "return_after_break": "Dobrze cię widzieć. Krzesło to samo. Ja też."
+      }
     },
     {
       "id": "neri",
@@ -147,9 +193,9 @@
       "origin": "Nowa propozycja do tej mapy.",
       "species": "Wydra",
       "role": "Opiekunka ścieżki przy strumieniu",
-      "personality": "Praktyczna, spostrzegawcza; chce, żeby każdy łatwo znalazł drogę na spotkanie.",
+      "personality": "Figlarna eksperymentatorka, która z każdej drobnej sprawy robi małe odkrycie. Kolekcjonuje ciekawe kamyki i lubi testować własne pomysły. Potrafi obrócić własną pomyłkę w żart.",
       "appearance": "Brązowe futro, jasny pyszczek, prosta granatowa kamizelka, zwinięty krótki sznurek.",
-      "voice": "Konkretne obserwacje o drodze i punktach orientacyjnych.",
+      "voice": "Żywe propozycje: «Sprawdźmy», «Mam pomysł». Konkretna obserwacja kończy się małym żartem. Jej energia wynika z zabawy i działania, nie z gadatliwości Miny.",
       "location": "Na ziemi przy prawym końcu drewnianego mostku, obok ścieżki.",
       "anchor": [
         0.81,
@@ -161,9 +207,24 @@
         "h06",
         "h07"
       ],
-      "greeting_locked": "Most jest otwarty. Ja tylko wybieram miejsce na wieczorny lampion.",
-      "repeat": "Droga już oznaczona. Chcesz wrócić do kart z tego przystanku?",
-      "resume": "Zostawiliśmy tu jeden niedokończony zestaw. Możemy spokojnie wrócić."
+      "greeting_locked": "Hej! Wybieram kamień na drogowskaz. Ten wygląda odpowiedzialnie. Most jest otwarty, możesz przejść.",
+      "repeat": "Jeszcze jedna runda z kartami? Chętnie. Kamyk zostaje widzem; nie zna ani jednego znaku.",
+      "resume": "Karty są suche. Sprawdziłam. Przy strumieniu lubię zaczynać właśnie od tego.",
+      "voice_guide": {
+        "archetype": "Pomysłowa psotnica i odkrywczyni",
+        "inspiration": "Wydra: zabawa, ciekawość, zręczne łapki i zamiłowanie do kamyków.",
+        "rhythm": "Pomysł, sprawdzenie, krótkie odkrycie. Zaprasza do wspólnego eksperymentu.",
+        "humor": "Nadaje kamykom ważne stanowiska i testuje własne, nie zawsze potrzebne wynalazki.",
+        "weakness": "Nowy pomysł łatwo odciąga ją od poprzedniego. Uczy się wybierać rozwiązanie czytelne także dla innych.",
+        "arc": "Z prywatnej zabawy robi coś wspólnego: prostą drogę na spotkanie.",
+        "restraint": "Psoty nie szkodzą mieszkańcom, nie niszczą poczty i nie wymagają ryzykownych działań przy wodzie. Bez punktów, wyścigu i presji."
+      },
+      "feedback": {
+        "correct": "Tak, «{reading}»! Sprawdzone.",
+        "incorrect": "Sprawdźmy: tu czytamy «{reading}». Obejrzyjmy ten kształt jeszcze raz.",
+        "dont_know": "Odkrywamy: «{reading}». Możemy się mu chwilę przyjrzeć.",
+        "return_after_break": "Hej! Mam nowy kamyk do kolekcji. Ale nasze karty zostały na starym miejscu."
+      }
     },
     {
       "id": "hana",
@@ -171,9 +232,9 @@
       "origin": "Nowa propozycja do tej mapy.",
       "species": "Mysz leśna",
       "role": "Gospodyni polany spotkań",
-      "personality": "Gościnna i pomysłowa; zawsze zostawia jedno wolne miejsce dla nowej osoby.",
+      "personality": "Nieśmiała i zapobiegliwa gospodyni. Zauważa najmniejsze niewygody, zbiera zapasy i szykuje zapas dla zapasu. Mówi cicho, lecz stanowczo upomina się o miejsce dla każdego.",
       "appearance": "Szaro-brązowe futro, terakotowy fartuszek, niewielki koszyk jasnych kwiatów.",
-      "voice": "Ciepło i bez przesady; mówi o wspólnym miejscu i odpoczynku.",
+      "voice": "Łagodne zaproszenia, konkretne drobiazgi: poduszka, okruszek, wolne miejsce. Przy sprawach gościnności jej ostrożne zdania stają się pewne i proste.",
       "location": "Wewnątrz polany z trzema ławkami w dolnej prawej części mapy.",
       "anchor": [
         0.72,
@@ -184,9 +245,24 @@
       "encounters": [
         "h08"
       ],
-      "greeting_locked": "Możesz tu odpocząć. Dekoracje przygotujemy, kiedy skończysz przy mostku.",
-      "repeat": "Twoje miejsce nadal tu jest. Karty też możemy jeszcze raz obejrzeć.",
-      "resume": "Koszyk zostawiłam przy ławce. Dokończymy dekorację?"
+      "greeting_locked": "Możesz tu przysiąść. Mam dodatkową poduszkę. I jeszcze jedną, gdyby ta pierwsza nie pasowała.",
+      "repeat": "Mam karty i wolny kawałek ławki. Możesz powtórzyć tyle, ile chcesz.",
+      "resume": "Twoje karty schowałam pod serwetką. Tu nic się nie gubi. Najwyżej trafia do niewłaściwego koszyka.",
+      "voice_guide": {
+        "archetype": "Cicha gospodyni o niespodziewanej stanowczości",
+        "inspiration": "Mysz: ostrożność, małe zapasy, uważność na szczegóły i przytulne schronienie.",
+        "rhythm": "Spokojny początek i praktyczna troska. Bez jąkania, pisków i ciągłego przepraszania.",
+        "humor": "Ma gotową dodatkową poduszkę, a potem okazuje się, że przygotowała jeszcze jedną.",
+        "weakness": "Przygotowuje więcej, niż potrzeba, bo martwi się, że kogoś pominie.",
+        "arc": "Odkrywa, że najważniejszym zapasem jest wolne miejsce, nie kolejny przedmiot.",
+        "restraint": "Nie jest bezradna ani strachliwa w każdej scenie. Nie nagradza odpowiedzi jedzeniem i nie traktuje gracza jak małego dziecka."
+      },
+      "feedback": {
+        "correct": "Tak, «{reading}». Odłożę tę kartę tutaj.",
+        "incorrect": "Tu czytamy «{reading}». Zostawię kartę bliżej, żeby łatwiej było ją obejrzeć.",
+        "dont_know": "Pokażę ci: «{reading}». Mamy na to miejsce i chwilę.",
+        "return_after_break": "Dobrze, że jesteś. Twoje miejsce jest wolne. Dopilnowałam tego."
+      }
     },
     {
       "id": "sora",
@@ -194,9 +270,9 @@
       "origin": "Nowa propozycja do tej mapy.",
       "species": "Sowa",
       "role": "Opiekunka wiejskich wspomnień",
-      "personality": "Uważna i pogodna; pomaga Yuu odczytać sens pustej strony, nie zastępuje poprzedniej opiekunki.",
+      "personality": "Uczona miłośniczka ksiąg, odrobinę próżna na punkcie swojej mądrości. Lubi podniosłe wstępy, lecz ma dystans do siebie i potrafi przyznać, że coś przeoczyła. Najważniejsze rzeczy mówi prosto.",
       "appearance": "Kremowy dysk twarzy, szaro-brązowe pióra, śliwkowa chusta, zamknięty niebieskoszary album.",
-      "voice": "Jedno zdanie, które zostawia miejsce do namysłu; bez zagadkowych przepowiedni.",
+      "voice": "Czasem zaczyna uroczyście, po czym skraca własny wywód do jednego jasnego zdania. Suchy żart dotyczy jej uczoności, nigdy niewiedzy rozmówcy.",
       "location": "Przy małym domku z niebieskim dachem, po lewej stronie nad szkołą.",
       "anchor": [
         0.3,
@@ -207,9 +283,24 @@
       "encounters": [
         "h09"
       ],
-      "greeting_locked": "Przeglądam dawne wspomnienia. Gdy polana będzie gotowa, poszukamy miejsca na nowe.",
-      "repeat": "Historia już ma swoją stronę. Do znaków możemy wracać tyle razy, ile potrzeba.",
-      "resume": "Zakładka jest tam, gdzie ją zostawiliśmy. Otworzyć album?"
+      "greeting_locked": "Witaj. Badałam właśnie... ach, szukałam zakładki. Po przygotowaniu polany zajrzymy razem do notesu.",
+      "repeat": "Jak mawiają uczeni: warto wracać do znaków. Ja też tak mawiam. Do których wracamy?",
+      "resume": "Przerwaliśmy w interesującym miejscu. Zakładkę mam pod skrzydłem. Tym razem pamiętam którym.",
+      "voice_guide": {
+        "archetype": "Erudytka z odrobiną teatralności",
+        "inspiration": "Sowa: mądrość, obserwacja i nocne czytanie; to konwencja baśniowa, nie opis biologii.",
+        "rhythm": "Podniosły początek, zwyczajne dopowiedzenie. Cytaty używane oszczędnie i ze wskazaniem autora.",
+        "humor": "Po wielkiej zapowiedzi przyznaje, że właśnie cytuje samą siebie albo szuka rzeczy pod własnym skrzydłem.",
+        "weakness": "Chętnie wygłosiłaby wykład, nawet gdy wystarczy jedno zdanie. Uczy się słuchać nowych historii.",
+        "arc": "Pomaga odczytać pustą stronę jako zaproszenie. W finale uznaje wspomnienie mieszkańców za ważniejsze od własnego komentarza.",
+        "restraint": "Nie jest wszechwiedząca, nie zawstydza gracza i nie wymyśla fałszywych japońskich przysłów. Emocjonalna scena pustej strony pozostaje szczera."
+      },
+      "feedback": {
+        "correct": "W istocie: «{reading}». Krótko mówiąc, tak.",
+        "incorrect": "Tu czytamy «{reading}». Warto sprawdzić szczegół; sama też to robię.",
+        "dont_know": "Zajrzyjmy do wzorca: «{reading}». Od tego są wzorce.",
+        "return_after_break": "Witaj ponownie. Przygotowałam dłuższe powitanie, ale wolę usłyszeć twoją historię."
+      }
     }
   ],
   "encounters": [
@@ -228,15 +319,15 @@
       ],
       "prerequisite": null,
       "before": [
-        "Witaj w Kigi. Przygotowujemy Wieczór Lampionów, a w notesie zostało miejsce na nową historię.",
-        "Zacznijmy od pięciu znaków. Najpierw je poznamy, potem spróbujesz je odczytać."
+        "Witaj w Kigi! Jestem Yuu. Organizuję Wieczór Lampionów. Mam notes poprzedniej opiekunki i siedem zakładek. Na dobry początek.",
+        "Najpierw pięć znaków. Poznamy je, potem spróbujesz je odczytać. Reszta planu może chwilę poczekać."
       ],
       "cta": "Poznaj pierwsze znaki",
       "after": [
-        "Pierwsza kartka jest gotowa. Nie trzeba pamiętać wszystkiego od razu."
+        "Pierwsza kartka gotowa. Dopiszę: «Dobry początek». Nie «Wszystko zapamiętane» — to przecież nie to samo."
       ],
       "world_change": "Liściasta zakładka w notesie; mapa zachowuje obecne oświetlenie.",
-      "next": "Kiedy zechcesz, mam jeszcze jedną grupę kart."
+      "next": "Mam jeszcze pięć kart. Leżą równiutko, więc spokojnie poczekają na następne spotkanie."
     },
     {
       "id": "h02",
@@ -253,16 +344,16 @@
       ],
       "prerequisite": "h01",
       "before": [
-        "Przy szkole zaczniemy naszą ścieżkę. Mam jeszcze pięć kart do pierwszego przystanku.",
-        "Po ćwiczeniu wybierzemy miejsce na pamiątkowy lampion."
+        "Według planu pierwszy lampion ma wisieć przy szkole. Sprawdziłem trzy razy. Za trzecim plan nadal mówił to samo.",
+        "Poznajmy pięć kolejnych znaków. Potem razem wybierzemy miejsce na lampion."
       ],
       "cta": "Otwórz kolejne karty",
       "after": [
-        "Pierwszy przystanek gotowy. Ten lampion przypomni nam dzisiejsze spotkanie."
+        "Pierwszy lampion na miejscu. W notesie wygląda trochę inaczej. Nasz podoba mi się bardziej."
       ],
       "world_change": "Jeden nowy, wyróżniony lampion świąteczny lub ozdoba istniejącej lampy przy szkole. Nie dublować lamp namalowanych w tle.",
       "reward_id": "first-lantern",
-      "next": "Mina czeka przy czerwonej skrzynce pod wielkim drzewem."
+      "next": "Mina czeka przy czerwonej skrzynce pod drzewem. Pewnie już ma dla ciebie całe powitanie. Albo dwa."
     },
     {
       "id": "h03",
@@ -279,15 +370,15 @@
       ],
       "prerequisite": "h02",
       "before": [
-        "Napisałam: «Spotykamy się tam, gdzie zawsze». To niezbyt pomaga komuś nowemu, prawda?",
-        "Do zaproszeń dołożymy obrazki przystanków. Najpierw poćwiczmy pięć nowych znaków na szkolnych kartach."
+        "O, jesteś! Zaproszenia gotowe, trasa też, tylko... Napisałam «tam, gdzie zawsze». Tobie to chyba niewiele mówi.",
+        "Dodamy obrazki przystanków! A najpierw pięć nowych znaków na szkolnych kartach. Opowiem ci... Nie, spokojnie. Po kolei."
       ],
       "cta": "Pomóż przy zaproszeniach",
       "after": [
-        "Gotowe. A ta koperta bez adresu jest dla ciebie. Zawsze zostawiam jedną dla kogoś nowego."
+        "Ta koperta bez adresu? Dla ciebie! Zostawiam jedną dla kogoś nowego. Resztę dopowiesz już po swojemu."
       ],
       "world_change": "Plik gotowych kopert obok istniejącej skrzynki; koperta w notesie.",
-      "next": "Zanieś Tomie wiadomość, że zaproszenia są gotowe. Pracuje na górnym tarasie."
+      "next": "Zajrzyj do Tomy na górnym tarasie. Powiedz, że poczta gotowa. Tylko tyle. Wiem, też uważam, że to krótka wiadomość."
     },
     {
       "id": "h04",
@@ -304,15 +395,15 @@
       ],
       "prerequisite": "h03",
       "before": [
-        "Ten lampion jest okrągły, tamten wąski. Jeszcze nie wiem, czy wszystkie powinny wyglądać tak samo.",
-        "Przygotujmy jeden papierowy korpus. Przy okazji zajrzymy do następnej grupy kart."
+        "Mina cię przysłała? Usiądź. Ten lampion jest okrągły. Tamten wąski. Rozważam sprawę. Od herbaty.",
+        "Poznajmy pięć nowych znaków. Potem przygotujemy papierowy korpus. Papier nie lubi pośpiechu. Ja też."
       ],
       "cta": "Zajrzyj do pracowni",
       "after": [
-        "Korpus gotowy. Zostawię mu jego własny kształt."
+        "Korpus gotowy. Trochę krzywy. Stoi pewnie. Na razie się dogadujemy."
       ],
       "world_change": "Nowy papierowy korpus w zbliżeniu stołu; bez znikania lampionów namalowanych na mapie.",
-      "next": "Zostały etykiety. Możemy do nich wrócić przy następnym spotkaniu."
+      "next": "Zostały etykiety i następna grupa kart. Zostawimy je na kolejne spotkanie. Nie mają nóg."
     },
     {
       "id": "h05",
@@ -329,15 +420,15 @@
       ],
       "prerequisite": "h04",
       "before": [
-        "W starym notesie znalazłem krzywy lampion. Ktoś narysował go z wielką starannością.",
-        "Może właśnie taki najlepiej zapamiętał. Przejrzyjmy następne karty i dokończmy nasz."
+        "Spójrz na rysunek w notesie. Krzywy lampion. Ktoś go starannie narysował, zamiast wyprostować. Słusznie.",
+        "Jeszcze pięć nowych znaków. Potem dokończymy nasz lampion. Krzywiznę zostawię. Już ją znam."
       ],
       "cta": "Dokończ lampion",
       "after": [
-        "Nie muszą być jednakowe. Ten będzie opowiadał o naszej pracy."
+        "Gotowy. Drugiego takiego nie zrobię. Nawet gdybym próbował."
       ],
       "world_change": "Ozdobiony lampion przy pracowni i pamiątka w notesie; opcjonalny wybór ornamentu po nauce.",
-      "next": "Neri wybiera miejsce na lampion przy mostku."
+      "next": "Neri czeka przy mostku. Zapytaj o miejsce na lampion. O kamyki tylko wtedy, gdy masz czas."
     },
     {
       "id": "h06",
@@ -354,15 +445,15 @@
       ],
       "prerequisite": "h05",
       "before": [
-        "Mina mówi: «Po prawej stronie mostku». Tylko z której strony idziemy?",
-        "Wybierzemy stały punkt przy ścieżce. A zanim zawiesimy lampion, poznajmy kolejne pięć znaków."
+        "Mina mówi: «Po prawej stronie mostku». Sprawdziłam z obu stron. Mamy dwie prawe! To o jedną za dużo.",
+        "Awansujmy ten kamień na drogowskaz. Najpierw pięć nowych znaków na kartach, potem wybierzemy oznaczenie."
       ],
       "cta": "Przygotuj przystanek",
       "after": [
-        "Ten kamień rozpoznamy z obu stron. To lepsza wskazówka niż moje «tutaj»."
+        "Kamień dostał oznaczenie. Z obu stron wygląda tak samo. Świetnie sobie radzi na nowym stanowisku."
       ],
       "world_change": "Niewielkie oznaczenie przy istniejącym kamieniu; most nadal jest cały i otwarty.",
-      "next": "Następnym razem przygotujemy drogę od mostku do polany."
+      "next": "Następnym razem pokażemy drogę do polany. Mam pomysł. Tym razem nawet nie trzeba niczego moczyć."
     },
     {
       "id": "h07",
@@ -379,15 +470,15 @@
       ],
       "prerequisite": "h06",
       "before": [
-        "Od kamienia droga prowadzi prosto do polany z ławkami.",
-        "Mam następny zestaw kart. Po ćwiczeniu zawiesimy tu światło dla gości."
+        "Mam skrót do polany. Sprawdziłam: jest dłuższy od zwykłej drogi. Za to widoki świetne! Wybierzmy zwykłą.",
+        "Jeszcze pięć nowych znaków, potem zawiesimy lampion przy mostku. Mam sznurek i wyjątkowo porządny węzeł."
       ],
       "cta": "Dokończ przystanek",
       "after": [
-        "Teraz łatwo pokazać drogę. Zacznij przy kamieniu i idź w stronę polany."
+        "Lampion wisi, droga czytelna. Kamień nic nie mówi, ale chyba jest zadowolony."
       ],
       "world_change": "Oddzielny lampion przy dojściu do mostku i pamiątka mostu w notesie.",
-      "next": "Hana czeka przy ławkach. Zostawiła dla nas wolne miejsce."
+      "next": "Hana czeka przy ławkach. Przyniosę jej kamyk do dekoracji. Najmniejszy. Duże już mają obowiązki."
     },
     {
       "id": "h08",
@@ -402,15 +493,15 @@
       ],
       "prerequisite": "h07",
       "before": [
-        "Ławki już stoją. Zostawmy trochę miejsca dla kogoś, kto dojdzie później.",
-        "Dzisiaj tylko trzy nowe znaki. Potem wybierzemy kwiaty do naszej dekoracji."
+        "Możesz usiąść tutaj. Mam poduszki, kwiaty i zapasową serwetkę. Okruszki też, ale tych nie planowałam.",
+        "Dzisiaj trzy nowe znaki. Potem ułożymy kwiaty. To miejsce obok zostawię wolne — ktoś jeszcze może do nas dołączyć."
       ],
       "cta": "Przygotuj polanę",
       "after": [
-        "Gotowe. Dobrze mieć miejsce, do którego można po prostu dołączyć."
+        "Ładnie. Neri zmieści tu nawet swój kamyk. Ale tego wolnego miejsca nie zajmujemy. Ono jest dla kogoś."
       ],
       "world_change": "Koszyk kwiatów i poduszki przy istniejących ławkach. Nie tworzyć drugiego kompletu ławek.",
-      "next": "Sora przechowuje dawne wspomnienia w małym domku nad szkołą."
+      "next": "Sora czeka w małym domku nad szkołą. Jeśli zaproponuje wykład, możesz poprosić o krótszą wersję. Ja już umiem."
     },
     {
       "id": "h09",
@@ -427,15 +518,15 @@
       ],
       "prerequisite": "h08",
       "before": [
-        "Yuu martwi się pustą stroną. Myśli, że z notesu wypadła najważniejsza instrukcja.",
-        "Przejrzyjmy następne pięć kart. Potem pokażę ci dopisek na odwrocie tej strony."
+        "Yuu podejrzewa, że z notesu zginęła instrukcja. Zagadnienie godne uczonej sowy. Na szczęście jedna jest pod ręką.",
+        "Najpierw pięć nowych znaków. Potem odwrócimy pustą stronę. Dziś cała mądrość mieści się na jej odwrocie."
       ],
       "cta": "Otwórz album",
       "after": [
-        "Jest tu napisane: «Zostaw miejsce na historię, której jeszcze nie znasz». Ta strona czekała na was."
+        "Poprzednia opiekunka napisała: «Zostaw miejsce na historię, której jeszcze nie znasz». Ta strona czekała na was."
       ],
       "world_change": "Odsłonięty dopisek w notesie, bez dodawania nowej strony jako zagubionego przedmiotu.",
-      "next": "Wróć do Yuu przy szkole. Został ostatni krótki zestaw."
+      "next": "Zanieś to Yuu przy szkole. Własnego komentarza nie dołączę. To zdanie już ma wszystko, czego potrzebuje."
     },
     {
       "id": "h10",
@@ -450,15 +541,15 @@
       ],
       "prerequisite": "h09",
       "before": [
-        "Chciałem zrobić wszystko dokładnie tak jak poprzednia opiekunka. A ona zostawiła miejsce na naszą historię.",
-        "Poznajmy ostatnie trzy znaki tego etapu. Potem wybierzesz pamiątkę na wspólną stronę."
+        "Pusta strona. A ja sprawdzałem, czy nie skleiła się z następną. Chciałem odtworzyć stary plan, a ona zostawiła miejsce dla nas.",
+        "Poznajmy ostatnie trzy znaki tego etapu. Potem wybierzesz pamiątkę na naszą stronę. Tym razem nie zrobiłem listy za ciebie."
       ],
       "cta": "Dopisz naszą historię",
       "after": [
-        "Mamy nową stronę Kigi. Do znaków będziemy wracać, a nasze wspomnienie zostanie."
+        "Jest nasza strona. Niczego na niej nie poprawię. Do znaków wrócimy, kiedy będzie trzeba."
       ],
       "world_change": "Wybór pamiątki: szkoła, poczta albo mostek; wpis w notesie i możliwość rozpoczęcia finału na polanie.",
-      "next": "Wieczór Lampionów będzie czekał przy ławkach. Rozpocznij go, kiedy zechcesz.",
+      "next": "Wieczór Lampionów czeka przy ławkach. Zacznij, kiedy zechcesz. W planie zostawiłem na to dużo miejsca.",
       "language_note": "を prezentujemy z odczytem o i informacją o zapisie wo w tabelach/klawiaturze. Przyjmujemy o oraz wo zgodnie z zasadami projektu. To wprowadzenie do rozpoznania znaku; jego funkcja jako partykuły wymaga osobnego ćwiczenia w kontekście. Nie rozróżniamy を i お w izolowanym zadaniu słuchowym. ん jest odrębną morą, nie piątą sylabą rzędu W."
     }
   ],
@@ -497,31 +588,31 @@
     "lines": [
       {
         "npc": "mina",
-        "text": "Zostawiłam jedno zaproszenie dla kogoś nowego."
+        "text": "Wszyscy dotarli! A mogłam po prostu narysować drogę. Następnym razem opowiem o tym... krócej."
       },
       {
         "npc": "toma",
-        "text": "I każdy lampion jest trochę inny."
+        "text": "Ten krzywy to nasz. Rozpoznałem od razu."
       },
       {
         "npc": "neri",
-        "text": "Z mostku widać już nasze miejsce."
+        "text": "Mój kamyk pilnuje mostku. Ja przypilnuję, żeby było wesoło."
       },
       {
         "npc": "hana",
-        "text": "Przysiądź. Miejsce dla ciebie czekało od początku."
+        "text": "Przysiądź tutaj. Tak, właśnie tutaj. To miejsce trzymałam dla ciebie."
       },
       {
         "npc": "sora",
-        "text": "A pusta strona ma już swoją opowieść."
+        "text": "Mogłabym wygłosić kilka słów. Ale tę chwilę wolę po prostu zapamiętać."
       },
       {
         "npc": "yuu",
-        "text": "To nasz pierwszy Wieczór Lampionów. Następne historie dopiszemy razem."
+        "text": "Nie tak wyobrażałem sobie ten wieczór. Nie znałem jeszcze ciebie. Dopiszemy następne strony razem?"
       }
     ],
     "memory": "Wieczór Lampionów. W Kigi znalazło się miejsce na naszą historię.",
-    "epilogue": "Yuu: «W hiraganie są jeszcze małe znaki i nowe połączenia. Poznamy je na tych samych ścieżkach. A kiedyś zajrzymy też za górną bramę»."
+    "epilogue": "Yuu: «W hiraganie czekają jeszcze małe znaki i nowe połączenia. Zostańmy na naszych ścieżkach. Górnej bramie też zrobiłem zakładkę, ale to na później»."
   },
   "future_hiragana": [
     {
@@ -566,6 +657,18 @@
       "wskazanie karty",
       "życzliwe wsparcie",
       "spokojna radość"
+    ]
+  },
+  "dialogue_revision": {
+    "version": "character-voices/1.0",
+    "date": "2026-11-08",
+    "summary": "Odrębne charaktery, rytm mowy i humor sześciu mieszkańców; nowe rozmowy, powroty, reakcje na odpowiedzi i finał.",
+    "guidelines": [
+      "Skojarzenia ze zwierzętami są inspiracją baśniową. Charakter budują także osobisty problem, sposób mówienia i relacje.",
+      "Jedna wyrazista puenta na scenkę zwykle wystarczy. Nie dopisywać odgłosów zwierząt ani żartu do każdej karty.",
+      "Żarty dotyczą postaci lub sytuacji, nigdy niewiedzy, pomyłek ani tempa gracza.",
+      "Postacie mogą się różnić energią, lecz żadna nie ponagla do odpowiedzi i nie zawstydza.",
+      "W scenie pustej strony i zakończeniu serdeczność ma pierwszeństwo przed puentą."
     ]
   }
 }

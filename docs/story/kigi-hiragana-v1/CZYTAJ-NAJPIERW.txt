@@ -1,4 +1,4 @@
-KIGI — PAKIET NPC I DIALOGÓW v1
+KIGI — PAKIET NPC I DIALOGÓW v1.1
 8 listopada 2026
 
 Zawartość:
@@ -12,6 +12,9 @@ Zawartość:
 • map-reference.png — mapa przekazana jako odniesienie.
 • mapa-i-dialogi.html — samodzielny podgląd rozmieszczenia postaci i rozmów.
 • README.md — opis pakietu widoczny w repozytorium.
+
+Aktualizacja v1.1:
+Każdy mieszkaniec otrzymał własny charakter, rytm wypowiedzi, humor, dialogi przy powrocie i reakcje na odpowiedzi. Grafiki, kolejność nauki i nagrody pozostają bez zmian.
 
 Status:
 To pierwsza propozycja postaci i treści, oparta na zarysie KanaYu i mapie użytkownika. Nie zmieniono kodu KanaYu ani YuChallenge. Sześć grafik ma po jednej pozie. Nie są to animowane postacie Rive.
