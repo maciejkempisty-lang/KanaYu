@@ -110,7 +110,7 @@ Zrzuty renderera: `captures/path-editor.png`, `captures/directions-v2.png`, `cap
 
 ### Mapa detail v2
 
-Gra i edytor korzystają z `assets/map-v2/map-master-2560x3840.png`, dostarczonego w `docs/art-delivery/kigi-map-detail-v2-godot.zip`. Jedna współdzielona tekstura (około 37,5 MiB RGBA) służy jako tło, podgląd edytora i źródło masek zasłaniania, bez ładowania dodatkowej kopii kafli. Skala tła 0,4 zachowuje świat 1024 × 1536 i zapisane ścieżki. UV masek są przeliczone przez 2,5; filtrowanie Linear. Zoom pozostaje 1,8. Grafika nadal jest scalona, maski pierwszego planu pozostają ręcznymi wielokątami, a obszary ruchu można dopracować w edytorze.
+Gra i edytor korzystają z `assets/map-v2/map-master-2560x3840.png`, opisanego w [pakiecie mapy v2](../docs/art-delivery/kigi-map-detail-v2/README.md). Jedna współdzielona tekstura (około 37,5 MiB RGBA) służy jako tło, podgląd edytora i źródło masek zasłaniania, bez ładowania dodatkowej kopii kafli. Skala tła 0,4 zachowuje świat 1024 × 1536 i zapisane ścieżki. UV masek są przeliczone przez 2,5; filtrowanie Linear. Zoom pozostaje 1,8. Grafika nadal jest scalona, maski pierwszego planu pozostają ręcznymi wielokątami, a obszary ruchu można dopracować w edytorze.
 
 ### Edytor masek zasłaniania
 
