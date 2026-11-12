@@ -1,5 +1,10 @@
 # KanaYu — prototyp Kigi
 
+## Eksploracja Godot (2026-11-07)
+
+Natywna gra z eksploracją, lekcjami, powtórkami i zapisem postępów — bez Fluttera i przeglądarki podczas gry: otwórz **`godot/project.godot`** w Godot 4.7.2 lub **`Uruchom Kigi Godot.command`**. Sterowanie: WASD/strzałki, drążek dotykowy, E. [Uruchomienie, zakres migracji, testy i ograniczenia](godot/README.md). Szkoła otwiera osobną salę v6 z chodzącym bohaterem, sześcioma stanowiskami nauki i listą aktywności. Kamera oddalona do 1,8. **`\`** otwiera wizualny edytor ścieżek; osobno można uruchomić **`Edytor sciezek Kigi.command`**. Nowe atlasy idle/walk z `hero/Kigi-spritesheet` są podłączone we wszystkich ośmiu kierunkach. Poniższy opis dotyczy archiwalnej aplikacji Flutter, zachowanej do porównania reguł.
+
+
 Flutter + Rive, lokalny dziennik SQLite/Drift i FSRS. Wioska prowadzi do lekcji **あいうえお・かきくけこ**. Całość działa bez konta i bez backendu.
 
 ## Uruchomienie

@@ -1,0 +1,7 @@
+The KanjiVG-derived stroke paths, their order and derivative variant data in
+hiragana.json are licensed under Creative Commons Attribution-Share Alike 3.0.
+Copyright (C) 2009/2010/2011 Ulrich Apel and KanjiVG contributors.
+Source: https://kanjivg.tagaini.net/
+License: https://creativecommons.org/licenses/by-sa/3.0/
+Changes: SVG path data extracted into JSON, variant descriptions added.
+Original SVGs and attribution notices are retained in assets/strokes/.

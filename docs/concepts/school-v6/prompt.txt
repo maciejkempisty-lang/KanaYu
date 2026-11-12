@@ -1,0 +1,14 @@
+Fill ONLY the plain beige upper region of the supplied layout guide with a SINGLE-STOREY SINGLE-ROOM SCHOOL INTERIOR. Keep ALL existing illustrated pixels in lower region exactly unchanged in location, scale, color and detail. The lower region is an actual cutout of the game's village map, with the real entrance facade, indigo curtain, two lanterns, stone steps and village path. It MUST NOT be repainted, moved, redesigned or replaced. Canvas aspect ratio exactly 13:21, same framing as input.
+
+The roof was removed at the diagonal beige boundary: now show the SAME GROUND-FLOOR ROOM BEHIND that existing front wall, using a dollhouse roof-cutaway. NOT a second storey above it. The new wood floor must meet the INSIDE of existing front facade at the same level as existing door threshold. Front facade is the foreground wall of this SAME room. No floor slab between room and facade, no horizontal balcony, no mezzanine, no internal steps. New room's near boundary follows existing diagonal cut line. Wall/floor axes precisely match retained front wall rising toward upper-right. Extend room backward/up-left, moderate proportions, not a palace. Single continuous wooden floor with an open circulation center. ONE ROOM, ZERO internal dividing walls, ZERO internal doorways, ZERO extra classrooms. No roof above room. Back wall and short side walls with shoji windows, warm cedar/cream plaster and indigo accents, source-matching hand-painted stylized isometric game art.
+
+Within the new room, use distinct furnishings as six destinations rather than rooms. Face boards and working surfaces toward camera and leave reachable clear floor in front of each:
+back center largest chalkboard plus 2 small student desks, cream label "Pierwsze światło";
+back left smaller green reading board with blank cards, label "Czytanie";
+back right smaller green memory board with a closed card box beneath, label "Sprawdź po przerwie";
+right side wooden brush/ink/paper worktable, label "Pisanie";
+left side low notebook shelf and blank open reference album, label "Moje znaki";
+near right within room small archive desk, closed journal and two trays, label "Dziennik i postępy".
+No kana or other characters on boards/pages; neutral blank surfaces. Labels clean dark Polish type on small cream mockup overlays anchored to objects, not oversized signs. Exactly these six labels, no text on existing exterior. Enough room for circulation but compact like one village schoolroom, not an enormous institution.
+
+Finish beige area outside footprint with quiet forest greenery matching village, if any. Most important: preserve original lower half pixel alignment and the original entrance. Do not place a duplicate school, a roof, another door, stairs, an upper floor or a separate building in the blank area. Show one single room revealed by removal of the roof from the existing facade.

@@ -1,0 +1,82 @@
+{
+  "Idle Left": {
+    "height": 221.0,
+    "center_x": 116.0,
+    "feet_y": 242.0
+  },
+  "Idle Northwest": {
+    "height": 211.0,
+    "center_x": 156.25,
+    "feet_y": 236.0
+  },
+  "Idle Southwest": {
+    "height": 227.0,
+    "center_x": 132.5,
+    "feet_y": 241.0
+  },
+  "Wave Down": {
+    "height": 210.0,
+    "center_x": 130.0,
+    "feet_y": 232.0
+  },
+  "Wave Left": {
+    "height": 212.0,
+    "center_x": 102.5,
+    "feet_y": 233.0
+  },
+  "Wave Northeast": {
+    "height": 206.0,
+    "center_x": 147.0,
+    "feet_y": 227.0
+  },
+  "Wave Northwest": {
+    "height": 207.0,
+    "center_x": 154.75,
+    "feet_y": 226.0
+  },
+  "Wave Right": {
+    "height": 212.0,
+    "center_x": 154.5,
+    "feet_y": 233.0
+  },
+  "Wave Southeast": {
+    "height": 210.5,
+    "center_x": 131.0,
+    "feet_y": 236.0
+  },
+  "Wave Southwest": {
+    "height": 215.0,
+    "center_x": 127.0,
+    "feet_y": 236.0
+  },
+  "Wave Up": {
+    "height": 205.5,
+    "center_x": 132.0,
+    "feet_y": 234.5
+  },
+  "iso_idle_down_right": {
+    "height": 223.5,
+    "center_x": 128.5,
+    "feet_y": 234.0
+  },
+  "iso_idle_northeast_right": {
+    "height": 210.5,
+    "center_x": 101.75,
+    "feet_y": 236.0
+  },
+  "iso_idle_right_right": {
+    "height": 221.0,
+    "center_x": 142.5,
+    "feet_y": 242.0
+  },
+  "iso_idle_southeast_right": {
+    "height": 227.5,
+    "center_x": 125.5,
+    "feet_y": 241.0
+  },
+  "iso_idle_up_right": {
+    "height": 232.5,
+    "center_x": 128.0,
+    "feet_y": 253.5
+  }
+}

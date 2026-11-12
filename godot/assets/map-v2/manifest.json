@@ -1,0 +1,419 @@
+{
+	"checks": {
+		"reassembled_cores_equal_master": true,
+		"saved_tiles_match_master": true
+	},
+	"density": 2.5,
+	"generated_sources": [
+		{
+			"file": "generated/tile_0_0.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				-32,
+				-32,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_0_1.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				224,
+				-32,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_0_2.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				480,
+				-32,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_0_3.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				736,
+				-32,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_1_0.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				-32,
+				480,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_1_1.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				224,
+				480,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_1_2.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				480,
+				480,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_1_3.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				736,
+				480,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_2_0.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				-32,
+				992,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_2_1.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				224,
+				992,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_2_2.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				480,
+				992,
+				320,
+				576
+			]
+		},
+		{
+			"file": "generated/tile_2_3.png",
+			"native_size": [
+				936,
+				1681
+			],
+			"reference_rect_world": [
+				736,
+				992,
+				320,
+				576
+			]
+		}
+	],
+	"generation_overlap_world": 64,
+	"geometry": "Generative reinterpretation; check collision and foreground masks before deployment.",
+	"master_size": [
+		2560,
+		3840
+	],
+	"method": "12 independently generated detailed image edits, downsampled to common density, minimum-error overlap seam assembly, then shared-master tile export",
+	"runtime_gutter_px": 4,
+	"tiles": [
+		{
+			"core_rect_px": [
+				0,
+				0,
+				640,
+				1280
+			],
+			"file": "tiles/tile_0_0.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				0,
+				0,
+				644,
+				1284
+			],
+			"world_position": [
+				0.0,
+				0.0
+			]
+		},
+		{
+			"core_rect_px": [
+				640,
+				0,
+				640,
+				1280
+			],
+			"file": "tiles/tile_0_1.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				636,
+				0,
+				648,
+				1284
+			],
+			"world_position": [
+				254.4,
+				0.0
+			]
+		},
+		{
+			"core_rect_px": [
+				1280,
+				0,
+				640,
+				1280
+			],
+			"file": "tiles/tile_0_2.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				1276,
+				0,
+				648,
+				1284
+			],
+			"world_position": [
+				510.4,
+				0.0
+			]
+		},
+		{
+			"core_rect_px": [
+				1920,
+				0,
+				640,
+				1280
+			],
+			"file": "tiles/tile_0_3.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				1916,
+				0,
+				644,
+				1284
+			],
+			"world_position": [
+				766.4,
+				0.0
+			]
+		},
+		{
+			"core_rect_px": [
+				0,
+				1280,
+				640,
+				1280
+			],
+			"file": "tiles/tile_1_0.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				0,
+				1276,
+				644,
+				1288
+			],
+			"world_position": [
+				0.0,
+				510.4
+			]
+		},
+		{
+			"core_rect_px": [
+				640,
+				1280,
+				640,
+				1280
+			],
+			"file": "tiles/tile_1_1.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				636,
+				1276,
+				648,
+				1288
+			],
+			"world_position": [
+				254.4,
+				510.4
+			]
+		},
+		{
+			"core_rect_px": [
+				1280,
+				1280,
+				640,
+				1280
+			],
+			"file": "tiles/tile_1_2.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				1276,
+				1276,
+				648,
+				1288
+			],
+			"world_position": [
+				510.4,
+				510.4
+			]
+		},
+		{
+			"core_rect_px": [
+				1920,
+				1280,
+				640,
+				1280
+			],
+			"file": "tiles/tile_1_3.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				1916,
+				1276,
+				644,
+				1288
+			],
+			"world_position": [
+				766.4,
+				510.4
+			]
+		},
+		{
+			"core_rect_px": [
+				0,
+				2560,
+				640,
+				1280
+			],
+			"file": "tiles/tile_2_0.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				0,
+				2556,
+				644,
+				1284
+			],
+			"world_position": [
+				0.0,
+				1022.4
+			]
+		},
+		{
+			"core_rect_px": [
+				640,
+				2560,
+				640,
+				1280
+			],
+			"file": "tiles/tile_2_1.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				636,
+				2556,
+				648,
+				1284
+			],
+			"world_position": [
+				254.4,
+				1022.4
+			]
+		},
+		{
+			"core_rect_px": [
+				1280,
+				2560,
+				640,
+				1280
+			],
+			"file": "tiles/tile_2_2.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				1276,
+				2556,
+				648,
+				1284
+			],
+			"world_position": [
+				510.4,
+				1022.4
+			]
+		},
+		{
+			"core_rect_px": [
+				1920,
+				2560,
+				640,
+				1280
+			],
+			"file": "tiles/tile_2_3.png",
+			"scale": 0.4,
+			"source_rect_px": [
+				1916,
+				2556,
+				644,
+				1284
+			],
+			"world_position": [
+				766.4,
+				1022.4
+			]
+		}
+	],
+	"world_size": [
+		1024,
+		1536
+	]
+}

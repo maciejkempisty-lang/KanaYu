@@ -1,0 +1,82 @@
+{
+  "idle_down": {
+    "center_x": 146.0,
+    "feet_y": 236,
+    "height": 234
+  },
+  "idle_left": {
+    "center_x": 147.5,
+    "feet_y": 238,
+    "height": 220
+  },
+  "idle_northeast": {
+    "center_x": 107.0,
+    "feet_y": 236,
+    "height": 224
+  },
+  "idle_northwest": {
+    "center_x": 133.5,
+    "feet_y": 236,
+    "height": 209
+  },
+  "idle_right": {
+    "center_x": 110.0,
+    "feet_y": 238,
+    "height": 233
+  },
+  "idle_southeast": {
+    "center_x": 124.5,
+    "feet_y": 239,
+    "height": 239
+  },
+  "idle_southwest": {
+    "center_x": 154.0,
+    "feet_y": 240,
+    "height": 222
+  },
+  "idle_up": {
+    "center_x": 112.5,
+    "feet_y": 233,
+    "height": 208
+  },
+  "walk_down": {
+    "center_x": 139.5,
+    "feet_y": 215,
+    "height": 197
+  },
+  "walk_left": {
+    "center_x": 138.5,
+    "feet_y": 210,
+    "height": 173
+  },
+  "walk_northeast": {
+    "center_x": 113.5,
+    "feet_y": 207,
+    "height": 175
+  },
+  "walk_northwest": {
+    "center_x": 128.5,
+    "feet_y": 207,
+    "height": 167
+  },
+  "walk_right": {
+    "center_x": 112.5,
+    "feet_y": 211,
+    "height": 183
+  },
+  "walk_southeast": {
+    "center_x": 122.5,
+    "feet_y": 211,
+    "height": 188
+  },
+  "walk_southwest": {
+    "center_x": 147.5,
+    "feet_y": 211,
+    "height": 178
+  },
+  "walk_up": {
+    "center_x": 119.0,
+    "feet_y": 212,
+    "height": 172
+  }
+}

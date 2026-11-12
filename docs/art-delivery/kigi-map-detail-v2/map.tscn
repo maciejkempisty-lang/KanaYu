@@ -1,0 +1,89 @@
+[gd_scene load_steps=13 format=3]
+
+[ext_resource type="Texture2D" path="tiles/tile_0_0.png" id="1"]
+[ext_resource type="Texture2D" path="tiles/tile_0_1.png" id="2"]
+[ext_resource type="Texture2D" path="tiles/tile_0_2.png" id="3"]
+[ext_resource type="Texture2D" path="tiles/tile_0_3.png" id="4"]
+[ext_resource type="Texture2D" path="tiles/tile_1_0.png" id="5"]
+[ext_resource type="Texture2D" path="tiles/tile_1_1.png" id="6"]
+[ext_resource type="Texture2D" path="tiles/tile_1_2.png" id="7"]
+[ext_resource type="Texture2D" path="tiles/tile_1_3.png" id="8"]
+[ext_resource type="Texture2D" path="tiles/tile_2_0.png" id="9"]
+[ext_resource type="Texture2D" path="tiles/tile_2_1.png" id="10"]
+[ext_resource type="Texture2D" path="tiles/tile_2_2.png" id="11"]
+[ext_resource type="Texture2D" path="tiles/tile_2_3.png" id="12"]
+
+[node name="KigiDetailedMap" type="Node2D"]
+texture_filter = 2
+
+[node name="Tile00" type="Sprite2D" parent="."]
+position = Vector2(0.0, 0.0)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1")
+centered = false
+
+[node name="Tile01" type="Sprite2D" parent="."]
+position = Vector2(254.4, 0.0)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2")
+centered = false
+
+[node name="Tile02" type="Sprite2D" parent="."]
+position = Vector2(510.4, 0.0)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("3")
+centered = false
+
+[node name="Tile03" type="Sprite2D" parent="."]
+position = Vector2(766.4, 0.0)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4")
+centered = false
+
+[node name="Tile04" type="Sprite2D" parent="."]
+position = Vector2(0.0, 510.4)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("5")
+centered = false
+
+[node name="Tile05" type="Sprite2D" parent="."]
+position = Vector2(254.4, 510.4)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("6")
+centered = false
+
+[node name="Tile06" type="Sprite2D" parent="."]
+position = Vector2(510.4, 510.4)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("7")
+centered = false
+
+[node name="Tile07" type="Sprite2D" parent="."]
+position = Vector2(766.4, 510.4)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("8")
+centered = false
+
+[node name="Tile08" type="Sprite2D" parent="."]
+position = Vector2(0.0, 1022.4)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("9")
+centered = false
+
+[node name="Tile09" type="Sprite2D" parent="."]
+position = Vector2(254.4, 1022.4)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("10")
+centered = false
+
+[node name="Tile10" type="Sprite2D" parent="."]
+position = Vector2(510.4, 1022.4)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("11")
+centered = false
+
+[node name="Tile11" type="Sprite2D" parent="."]
+position = Vector2(766.4, 1022.4)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("12")
+centered = false

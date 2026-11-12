@@ -1,0 +1,5 @@
+.godot/
+captures/*.png
+
+assets/world/*.bak
+assets/world/*.tmp

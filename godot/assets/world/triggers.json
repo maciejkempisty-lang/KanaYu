@@ -1,0 +1,38 @@
+{
+  "schema": "kigi-triggers/1",
+  "routes": [
+    {
+      "id": "post",
+      "name": "Poczta pod drzewem",
+      "radius": 37,
+      "points": [
+        [
+          415,
+          1250
+        ]
+      ]
+    },
+    {
+      "id": "school",
+      "name": "Szkoła Yuu",
+      "radius": 37,
+      "points": [
+        [
+          444,
+          679
+        ]
+      ]
+    },
+    {
+      "id": "workshop",
+      "name": "Pracownia lampionów",
+      "radius": 37,
+      "points": [
+        [
+          551,
+          310
+        ]
+      ]
+    }
+  ]
+}

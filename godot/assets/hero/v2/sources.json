@@ -1,0 +1,18 @@
+{
+  "idle_right": "hero/Kigi-spritesheet/iso_idle_right_right",
+  "walk_right": "hero/Kigi-spritesheet/iso_walk_right_right",
+  "idle_southeast": "hero/Kigi-spritesheet/iso_idle_southeast_right",
+  "walk_southeast": "hero/Kigi-spritesheet/iso_walk_southeast_right",
+  "idle_down": "hero/Kigi-spritesheet/iso_idle_down_right",
+  "walk_down": "hero/Kigi-spritesheet/iso_walk_down_right",
+  "idle_southwest": "hero/Kigi-spritesheet/Idle Southwest",
+  "walk_southwest": "hero/Kigi-spritesheet/Walk Southwest",
+  "idle_left": "hero/Kigi-spritesheet/Idle Left",
+  "walk_left": "hero/Kigi-spritesheet/Walk Left",
+  "idle_northwest": "hero/Kigi-spritesheet/Idle Northwest",
+  "walk_northwest": "hero/Kigi-spritesheet/Walk Northwest",
+  "idle_up": "hero/Kigi-spritesheet/iso_idle_up_right",
+  "walk_up": "hero/Kigi-spritesheet/iso_walk_up_right",
+  "idle_northeast": "hero/Kigi-spritesheet/iso_idle_northeast_right",
+  "walk_northeast": "hero/Kigi-spritesheet/iso_walk_northeast_right"
+}

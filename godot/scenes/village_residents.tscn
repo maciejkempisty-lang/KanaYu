@@ -1,0 +1,63 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/village_resident.gd" id="resident"]
+
+[node name="Residents" type="Node2D"]
+y_sort_enabled = true
+
+[node name="Yuu" type="Node2D" parent="."]
+position = Vector2(522.240, 706.560)
+script = ExtResource("resident")
+atlas_root = "res://assets/residents/Yuu-spritesheet"
+dialogue_path = "res://assets/residents/Yuu-spritesheet/dialogue.json"
+greeting_prompt = "Porozmawiaj z Yuu"
+talk_range = 65.0
+wave_range = 115.0
+world_height = 84.0
+
+[node name="Mina" type="Node2D" parent="."]
+position = Vector2(440.320, 1251.840)
+script = ExtResource("resident")
+atlas_root = "res://assets/residents/Mina-spritesheet"
+dialogue_path = "res://assets/residents/Mina-spritesheet/dialogue.json"
+greeting_prompt = "Porozmawiaj z Miną"
+talk_range = 65.0
+wave_range = 115.0
+world_height = 68.0
+
+[node name="Toma" type="Node2D" parent="."]
+position = Vector2(604.160, 314.880)
+script = ExtResource("resident")
+atlas_root = "res://assets/residents/Toma-spritesheet"
+dialogue_path = "res://assets/residents/Toma-spritesheet/dialogue.json"
+greeting_prompt = "Porozmawiaj z Tomą"
+talk_range = 65.0
+wave_range = 115.0
+world_height = 78.0
+
+[node name="Neri" type="Node2D" parent="."]
+position = Vector2(829.440, 944.640)
+script = ExtResource("resident")
+atlas_root = "res://assets/residents/Neri-spritesheet"
+dialogue_path = "res://assets/residents/Neri-spritesheet/dialogue.json"
+greeting_prompt = "Porozmawiaj z Neri"
+talk_range = 65.0
+wave_range = 115.0
+world_height = 75.0
+
+[node name="Hana" type="Node2D" parent="."]
+position = Vector2(737.280, 1231.872)
+script = ExtResource("resident")
+atlas_root = "res://assets/residents/hana/Hana-spritesheet"
+dialogue_path = "res://assets/residents/hana/dialogue.json"
+greeting_prompt = "Porozmawiaj z Haną"
+
+[node name="Sora" type="Node2D" parent="."]
+position = Vector2(307.200, 443.904)
+script = ExtResource("resident")
+atlas_root = "res://assets/residents/Sora-spritesheet"
+dialogue_path = "res://assets/residents/Sora-spritesheet/dialogue.json"
+greeting_prompt = "Porozmawiaj z Sorą"
+talk_range = 65.0
+wave_range = 115.0
+world_height = 72.0
